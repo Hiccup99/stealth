@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Install Node deps
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm ci --omit=dev
 
 # Copy source
 COPY . .
