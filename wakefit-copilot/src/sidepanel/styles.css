@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wakefit-primary: #E84040;
+  --color-wakefit-dark: #1A1A2E;
+  --color-wakefit-muted: #6B7280;
+  --font-family-sans: Inter, system-ui, sans-serif;
+}

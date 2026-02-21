@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: copilot-platform
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: config-store
+      mountPath: /app/data
+      sizeGB: 1
+    healthCheckPath: /health

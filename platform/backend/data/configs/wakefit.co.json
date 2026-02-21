@@ -1,0 +1,4642 @@
+{
+  "domain": "wakefit.co",
+  "version": "3.0.0",
+  "crawledAt": "2026-02-21T06:07:56.340Z",
+  "crawlStats": {
+    "pagesVisited": 7,
+    "productSamples": 3,
+    "categorySamples": 3,
+    "durationMs": 636763
+  },
+  "pageTypes": {
+    "category": {
+      "urlPattern": "^\\/?$",
+      "jsonLdType": "Organization",
+      "label": "Category",
+      "confidence": 95
+    },
+    "product": {
+      "urlPattern": "(\\/mattress\\/[^/]+|\\/bed\\/[^/]+|\\/sofa-set\\/[^/]+|\\/medical-pillows\\/cervical-pillow\\/[A-Z0-9]{4,}|\\/kids-furniture\\/[^/]+\\/[A-Z0-9]{4,}|\\/bedding\\/[^/]+\\/[A-Z0-9]{4,}|\\/mattress\\/[^/]+\\/[A-Z0-9]{4,}|\\/bed\\/[^/]+\\/[A-Z0-9]{4,}|\\/static-category-page\\/[^/]+|\\/sofa-set\\/[^/]+\\/[A-Z0-9]{4,}|\\/dining-furniture\\/[^/]+\\/[A-Z0-9]{4,}|\\/dining-furniture\\/[^/]+|\\/study-tables\\/[^/]+\\/[A-Z0-9]{4,}|\\/decor\\/[^/]+\\/[A-Z0-9]{4,}|\\/wall-decor\\/[^/]+\\/[A-Z0-9]{4,}|\\/floor-furnishing\\/[^/]+|\\/plus-mattress\\/[^/]+\\/[^/]+|\\/bedding\\/[^/]+|\\/pillows-and-cushions\\/[^/]+\\/[A-Z0-9]{4,}|\\/pillows-and-cushions\\/[^/]+|\\/kids-furniture\\/[^/]+|\\/lights-and-lamps\\/[^/]+|\\/decor\\/[^/]+|\\/guides\\/[^/]+)",
+      "label": "Product",
+      "confidence": 95
+    },
+    "home": {
+      "urlPattern": "^\\/?$",
+      "label": "Home",
+      "confidence": 95
+    },
+    "cart": {
+      "urlPattern": "^\\/cart\\/?",
+      "label": "Cart",
+      "confidence": 95
+    },
+    "search": {
+      "urlPattern": "^\\/search",
+      "label": "Search",
+      "confidence": 95
+    }
+  },
+  "elements": {
+    "header": {
+      "selectors": [
+        "header",
+        "[class*=\"header\"]:not([class*=\"sub\"])"
+      ],
+      "confidence": 50,
+      "sampleCount": 7
+    },
+    "footer": {
+      "selectors": [
+        "footer"
+      ],
+      "confidence": 50,
+      "sampleCount": 7
+    },
+    "categoryTitle": {
+      "selectors": [
+        "h1"
+      ],
+      "confidence": 21,
+      "sampleCount": 3,
+      "exampleValue": "Check Out Wakefit Zense: India's First-Ever AI-Powered Sleep Solution"
+    },
+    "productTitle": {
+      "selectors": [
+        "h1"
+      ],
+      "confidence": 21,
+      "sampleCount": 3,
+      "exampleValue": "single bed mattress"
+    }
+  },
+  "navigationGraph": {
+    "home": [
+      {
+        "label": "Zense",
+        "href": "https://www.wakefit.co/zense",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress",
+        "href": "https://www.wakefit.co/mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed |",
+        "href": "https://www.wakefit.co/bed",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Living",
+        "href": "https://www.wakefit.co/sofa-set",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Dining",
+        "href": "https://www.wakefit.co/dining-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Study",
+        "href": "https://www.wakefit.co/study-tables",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedding |",
+        "href": "https://www.wakefit.co/bedding",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kitchen",
+        "href": "https://www.wakefit.co/kitchen",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Decor",
+        "href": "https://www.wakefit.co/decor",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Essentials",
+        "href": "https://www.wakefit.co/home-improvement",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kids",
+        "href": "https://www.wakefit.co/kids-accessories",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Plus Series",
+        "href": "https://www.wakefit.co/plus-mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "View all categories",
+        "href": "https://www.wakefit.co/all-categories",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Offers",
+        "href": "https://www.wakefit.co/alloffers",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Size Guide",
+        "href": "https://www.wakefit.co/mattress-size-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed Size Guide",
+        "href": "https://www.wakefit.co/select-bed-size",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed Assembly Guide",
+        "href": "https://www.wakefit.co/bed-assembly-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedroom Decor Ideas",
+        "href": "https://www.wakefit.co/bedroom-decor-ideas",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Living Room Decor Ideas",
+        "href": "https://www.wakefit.co/livingroom-decor-ideas",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Furniture Shop |",
+        "href": "https://www.wakefit.co/furniture-shop-near-me",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Shop",
+        "href": "https://www.wakefit.co/mattress-shop-near-me",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress |",
+        "href": "https://www.wakefit.co/mattress-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed |",
+        "href": "https://www.wakefit.co/bed-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sofa Set |",
+        "href": "https://www.wakefit.co/sofa-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sleeping Pillow |",
+        "href": "https://www.wakefit.co/pillow-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Wardrobe |",
+        "href": "https://www.wakefit.co/wardrobe-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "TV Unit |",
+        "href": "https://www.wakefit.co/tv-unit-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Study Table |",
+        "href": "https://www.wakefit.co/study-table-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Science of Sleep |",
+        "href": "https://www.wakefit.co/sleep-problems-solutions",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Science of Ergonomics |",
+        "href": "https://www.wakefit.co/benefits-of-ergonomic-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Buy Bed Online |",
+        "href": "https://www.wakefit.co/buy-bed-online",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sheesham Wood Online Bed Benefits |",
+        "href": "https://www.wakefit.co/sheesham-wood-bed-benefits",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Comparison Buying Guide |",
+        "href": "https://www.wakefit.co/mattress-comparison-buying-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Guides |",
+        "href": "https://www.wakefit.co/guides",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Table Decor Items |",
+        "href": "https://www.wakefit.co/table-decor-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Dining Decor Items",
+        "href": "https://www.wakefit.co/dining-decor-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "| Sofa",
+        "href": "https://www.wakefit.co/sofa-set-bangalore",
+        "targetPageType": "category"
+      },
+      {
+        "label": "| Sofa",
+        "href": "https://www.wakefit.co/sofa-set-hyderabad",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Work From Home/Office Furniture",
+        "href": "https://www.wakefit.co/work-from-home-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kids Room",
+        "href": "https://www.wakefit.co/kids-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "100 Nights Free Trial On Mattress",
+        "href": "https://www.wakefit.co/100-nights-free-trial-on-mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedsheets |",
+        "href": "https://www.wakefit.co/bedsheets",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Lights & Lamps |",
+        "href": "https://www.wakefit.co/lights-and-lamps",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Floor Furnishing |",
+        "href": "https://www.wakefit.co/floor-furnishing",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Decorative items",
+        "href": "https://www.wakefit.co/decorative-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Furniture |",
+        "href": "https://www.wakefit.co/furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Chair |",
+        "href": "https://www.wakefit.co/chair",
+        "targetPageType": "category"
+      }
+    ],
+    "product": [
+      {
+        "label": "Zense",
+        "href": "https://www.wakefit.co/zense",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress",
+        "href": "https://www.wakefit.co/mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed |",
+        "href": "https://www.wakefit.co/bed",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Living",
+        "href": "https://www.wakefit.co/sofa-set",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Dining",
+        "href": "https://www.wakefit.co/dining-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Study",
+        "href": "https://www.wakefit.co/study-tables",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedding |",
+        "href": "https://www.wakefit.co/bedding",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kitchen",
+        "href": "https://www.wakefit.co/kitchen",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Decor",
+        "href": "https://www.wakefit.co/decor",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Essentials",
+        "href": "https://www.wakefit.co/home-improvement",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kids",
+        "href": "https://www.wakefit.co/kids-accessories",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Plus Series",
+        "href": "https://www.wakefit.co/plus-mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "View all categories",
+        "href": "https://www.wakefit.co/all-categories",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Offers",
+        "href": "https://www.wakefit.co/alloffers",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Size Guide",
+        "href": "https://www.wakefit.co/mattress-size-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed Size Guide",
+        "href": "https://www.wakefit.co/select-bed-size",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed Assembly Guide",
+        "href": "https://www.wakefit.co/bed-assembly-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedroom Decor Ideas",
+        "href": "https://www.wakefit.co/bedroom-decor-ideas",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Living Room Decor Ideas",
+        "href": "https://www.wakefit.co/livingroom-decor-ideas",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Furniture Shop |",
+        "href": "https://www.wakefit.co/furniture-shop-near-me",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Shop",
+        "href": "https://www.wakefit.co/mattress-shop-near-me",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress |",
+        "href": "https://www.wakefit.co/mattress-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed |",
+        "href": "https://www.wakefit.co/bed-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sofa Set |",
+        "href": "https://www.wakefit.co/sofa-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sleeping Pillow |",
+        "href": "https://www.wakefit.co/pillow-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Wardrobe |",
+        "href": "https://www.wakefit.co/wardrobe-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "TV Unit |",
+        "href": "https://www.wakefit.co/tv-unit-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Study Table |",
+        "href": "https://www.wakefit.co/study-table-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Science of Sleep |",
+        "href": "https://www.wakefit.co/sleep-problems-solutions",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Science of Ergonomics |",
+        "href": "https://www.wakefit.co/benefits-of-ergonomic-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Buy Bed Online |",
+        "href": "https://www.wakefit.co/buy-bed-online",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sheesham Wood Online Bed Benefits |",
+        "href": "https://www.wakefit.co/sheesham-wood-bed-benefits",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Comparison Buying Guide |",
+        "href": "https://www.wakefit.co/mattress-comparison-buying-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Guides |",
+        "href": "https://www.wakefit.co/guides",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Table Decor Items |",
+        "href": "https://www.wakefit.co/table-decor-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Dining Decor Items",
+        "href": "https://www.wakefit.co/dining-decor-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "| Sofa",
+        "href": "https://www.wakefit.co/sofa-set-bangalore",
+        "targetPageType": "category"
+      },
+      {
+        "label": "| Sofa",
+        "href": "https://www.wakefit.co/sofa-set-hyderabad",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Work From Home/Office Furniture",
+        "href": "https://www.wakefit.co/work-from-home-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kids Room",
+        "href": "https://www.wakefit.co/kids-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "100 Nights Free Trial On Mattress",
+        "href": "https://www.wakefit.co/100-nights-free-trial-on-mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedsheets |",
+        "href": "https://www.wakefit.co/bedsheets",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Lights & Lamps |",
+        "href": "https://www.wakefit.co/lights-and-lamps",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Floor Furnishing |",
+        "href": "https://www.wakefit.co/floor-furnishing",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Decorative items",
+        "href": "https://www.wakefit.co/decorative-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Furniture |",
+        "href": "https://www.wakefit.co/furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Chair |",
+        "href": "https://www.wakefit.co/chair",
+        "targetPageType": "category"
+      }
+    ],
+    "category": [
+      {
+        "label": "Zense",
+        "href": "https://www.wakefit.co/zense",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress",
+        "href": "https://www.wakefit.co/mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed |",
+        "href": "https://www.wakefit.co/bed",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Living",
+        "href": "https://www.wakefit.co/sofa-set",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Dining",
+        "href": "https://www.wakefit.co/dining-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Study",
+        "href": "https://www.wakefit.co/study-tables",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedding |",
+        "href": "https://www.wakefit.co/bedding",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kitchen",
+        "href": "https://www.wakefit.co/kitchen",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Decor",
+        "href": "https://www.wakefit.co/decor",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Essentials",
+        "href": "https://www.wakefit.co/home-improvement",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kids",
+        "href": "https://www.wakefit.co/kids-accessories",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Plus Series",
+        "href": "https://www.wakefit.co/plus-mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "View all categories",
+        "href": "https://www.wakefit.co/all-categories",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Offers",
+        "href": "https://www.wakefit.co/alloffers",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Size Guide",
+        "href": "https://www.wakefit.co/mattress-size-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed Size Guide",
+        "href": "https://www.wakefit.co/select-bed-size",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed Assembly Guide",
+        "href": "https://www.wakefit.co/bed-assembly-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedroom Decor Ideas",
+        "href": "https://www.wakefit.co/bedroom-decor-ideas",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Living Room Decor Ideas",
+        "href": "https://www.wakefit.co/livingroom-decor-ideas",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Furniture Shop |",
+        "href": "https://www.wakefit.co/furniture-shop-near-me",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Shop",
+        "href": "https://www.wakefit.co/mattress-shop-near-me",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress |",
+        "href": "https://www.wakefit.co/mattress-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bed |",
+        "href": "https://www.wakefit.co/bed-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sofa Set |",
+        "href": "https://www.wakefit.co/sofa-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sleeping Pillow |",
+        "href": "https://www.wakefit.co/pillow-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Wardrobe |",
+        "href": "https://www.wakefit.co/wardrobe-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "TV Unit |",
+        "href": "https://www.wakefit.co/tv-unit-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Study Table |",
+        "href": "https://www.wakefit.co/study-table-design",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Science of Sleep |",
+        "href": "https://www.wakefit.co/sleep-problems-solutions",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Science of Ergonomics |",
+        "href": "https://www.wakefit.co/benefits-of-ergonomic-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Buy Bed Online |",
+        "href": "https://www.wakefit.co/buy-bed-online",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Sheesham Wood Online Bed Benefits |",
+        "href": "https://www.wakefit.co/sheesham-wood-bed-benefits",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Mattress Comparison Buying Guide |",
+        "href": "https://www.wakefit.co/mattress-comparison-buying-guide",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Guides |",
+        "href": "https://www.wakefit.co/guides",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Table Decor Items |",
+        "href": "https://www.wakefit.co/table-decor-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Dining Decor Items",
+        "href": "https://www.wakefit.co/dining-decor-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "| Sofa",
+        "href": "https://www.wakefit.co/sofa-set-bangalore",
+        "targetPageType": "category"
+      },
+      {
+        "label": "| Sofa",
+        "href": "https://www.wakefit.co/sofa-set-hyderabad",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Work From Home/Office Furniture",
+        "href": "https://www.wakefit.co/work-from-home-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Kids Room",
+        "href": "https://www.wakefit.co/kids-furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "100 Nights Free Trial On Mattress",
+        "href": "https://www.wakefit.co/100-nights-free-trial-on-mattress",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Bedsheets |",
+        "href": "https://www.wakefit.co/bedsheets",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Lights & Lamps |",
+        "href": "https://www.wakefit.co/lights-and-lamps",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Floor Furnishing |",
+        "href": "https://www.wakefit.co/floor-furnishing",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Decorative items",
+        "href": "https://www.wakefit.co/decorative-items",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Furniture |",
+        "href": "https://www.wakefit.co/furniture",
+        "targetPageType": "category"
+      },
+      {
+        "label": "Chair |",
+        "href": "https://www.wakefit.co/chair",
+        "targetPageType": "category"
+      }
+    ]
+  },
+  "productSchema": {
+    "name": "h1"
+  },
+  "listingSchema": {},
+  "mainNav": [
+    {
+      "label": "Zense",
+      "href": "https://www.wakefit.co/zense",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Mattress",
+      "href": "https://www.wakefit.co/mattress",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Bed |",
+      "href": "https://www.wakefit.co/bed",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Living",
+      "href": "https://www.wakefit.co/sofa-set",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Dining",
+      "href": "https://www.wakefit.co/dining-furniture",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Study",
+      "href": "https://www.wakefit.co/study-tables",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Bedding |",
+      "href": "https://www.wakefit.co/bedding",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Kitchen",
+      "href": "https://www.wakefit.co/kitchen",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Decor",
+      "href": "https://www.wakefit.co/decor",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Essentials",
+      "href": "https://www.wakefit.co/home-improvement",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Kids",
+      "href": "https://www.wakefit.co/kids-accessories",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Plus Series",
+      "href": "https://www.wakefit.co/plus-mattress",
+      "targetPageType": "category"
+    },
+    {
+      "label": "View all categories",
+      "href": "https://www.wakefit.co/all-categories",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Offers",
+      "href": "https://www.wakefit.co/alloffers",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Mattress Size Guide",
+      "href": "https://www.wakefit.co/mattress-size-guide",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Bed Size Guide",
+      "href": "https://www.wakefit.co/select-bed-size",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Bed Assembly Guide",
+      "href": "https://www.wakefit.co/bed-assembly-guide",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Bedroom Decor Ideas",
+      "href": "https://www.wakefit.co/bedroom-decor-ideas",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Living Room Decor Ideas",
+      "href": "https://www.wakefit.co/livingroom-decor-ideas",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Furniture Shop |",
+      "href": "https://www.wakefit.co/furniture-shop-near-me",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Mattress Shop",
+      "href": "https://www.wakefit.co/mattress-shop-near-me",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Mattress |",
+      "href": "https://www.wakefit.co/mattress-design",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Bed |",
+      "href": "https://www.wakefit.co/bed-design",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Sofa Set |",
+      "href": "https://www.wakefit.co/sofa-design",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Sleeping Pillow |",
+      "href": "https://www.wakefit.co/pillow-design",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Wardrobe |",
+      "href": "https://www.wakefit.co/wardrobe-design",
+      "targetPageType": "category"
+    },
+    {
+      "label": "TV Unit |",
+      "href": "https://www.wakefit.co/tv-unit-design",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Study Table |",
+      "href": "https://www.wakefit.co/study-table-design",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Science of Sleep |",
+      "href": "https://www.wakefit.co/sleep-problems-solutions",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Science of Ergonomics |",
+      "href": "https://www.wakefit.co/benefits-of-ergonomic-furniture",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Buy Bed Online |",
+      "href": "https://www.wakefit.co/buy-bed-online",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Sheesham Wood Online Bed Benefits |",
+      "href": "https://www.wakefit.co/sheesham-wood-bed-benefits",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Mattress Comparison Buying Guide |",
+      "href": "https://www.wakefit.co/mattress-comparison-buying-guide",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Guides |",
+      "href": "https://www.wakefit.co/guides",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Table Decor Items |",
+      "href": "https://www.wakefit.co/table-decor-items",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Dining Decor Items",
+      "href": "https://www.wakefit.co/dining-decor-items",
+      "targetPageType": "category"
+    },
+    {
+      "label": "| Sofa",
+      "href": "https://www.wakefit.co/sofa-set-bangalore",
+      "targetPageType": "category"
+    },
+    {
+      "label": "| Sofa",
+      "href": "https://www.wakefit.co/sofa-set-hyderabad",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Work From Home/Office Furniture",
+      "href": "https://www.wakefit.co/work-from-home-furniture",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Kids Room",
+      "href": "https://www.wakefit.co/kids-furniture",
+      "targetPageType": "category"
+    },
+    {
+      "label": "100 Nights Free Trial On Mattress",
+      "href": "https://www.wakefit.co/100-nights-free-trial-on-mattress",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Bedsheets |",
+      "href": "https://www.wakefit.co/bedsheets",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Lights & Lamps |",
+      "href": "https://www.wakefit.co/lights-and-lamps",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Floor Furnishing |",
+      "href": "https://www.wakefit.co/floor-furnishing",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Decorative items",
+      "href": "https://www.wakefit.co/decorative-items",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Furniture |",
+      "href": "https://www.wakefit.co/furniture",
+      "targetPageType": "category"
+    },
+    {
+      "label": "Chair |",
+      "href": "https://www.wakefit.co/chair",
+      "targetPageType": "category"
+    }
+  ],
+  "coverage": {
+    "pdpIntentsCovered": 0,
+    "pdpIntentsTotal": 25,
+    "plpIntentsCovered": 0,
+    "plpIntentsTotal": 11,
+    "globalIntentsCovered": 2,
+    "globalIntentsTotal": 7,
+    "uncovered": [
+      "productTitle",
+      "price",
+      "originalPrice",
+      "discountBadge",
+      "stockStatus",
+      "addToCart",
+      "buyNow",
+      "quantitySelector",
+      "sizeSelector",
+      "colorSelector",
+      "materialSelector",
+      "productImages",
+      "thumbnails",
+      "specsSection",
+      "specsTable",
+      "highlights",
+      "rating",
+      "reviewCount",
+      "reviewSection",
+      "trialBanner",
+      "warrantyInfo",
+      "emiInfo",
+      "deliveryInfo",
+      "relatedProducts",
+      "recentlyViewed",
+      "categoryTitle",
+      "productCards",
+      "productCardName",
+      "productCardPrice",
+      "productCardRating",
+      "productCardImage",
+      "filterSidebar",
+      "activeFilters",
+      "sortDropdown",
+      "pagination",
+      "productCount",
+      "searchBar",
+      "cartBadge",
+      "navCategories",
+      "breadcrumb",
+      "userAccount",
+      "cartItems",
+      "cartItemName",
+      "cartItemQty",
+      "cartTotal",
+      "proceedToCheckout",
+      "couponInput"
+    ],
+    "overallPct": 5
+  },
+  "urlRegistry": {
+    "products": [
+      {
+        "name": "Single Bed Mattresses |",
+        "url": "https://www.wakefit.co/mattress/single-bed-mattress",
+        "category": "Zense"
+      },
+      {
+        "name": "Double Bed Mattresses |",
+        "url": "https://www.wakefit.co/mattress/double-bed-mattress",
+        "category": "Zense"
+      },
+      {
+        "name": "King Size Mattresses |",
+        "url": "https://www.wakefit.co/mattress/king-size-mattress",
+        "category": "Zense"
+      },
+      {
+        "name": "Queen Size Mattress |",
+        "url": "https://www.wakefit.co/mattress/queen-size-mattress",
+        "category": "Zense"
+      },
+      {
+        "name": "Memory Foam Mattress |",
+        "url": "https://www.wakefit.co/mattress/memory-foam-mattress",
+        "category": "Zense"
+      },
+      {
+        "name": "Orthopaedic Mattress |",
+        "url": "https://www.wakefit.co/mattress/orthopaedic-mattress",
+        "category": "Zense"
+      },
+      {
+        "name": "King Size Beds |",
+        "url": "https://www.wakefit.co/bed/king-size-bed",
+        "category": "Zense"
+      },
+      {
+        "name": "Queen Size Beds |",
+        "url": "https://www.wakefit.co/bed/queen-size-bed",
+        "category": "Zense"
+      },
+      {
+        "name": "Hydraulic Beds |",
+        "url": "https://www.wakefit.co/bed/hydraulic-storage-bed",
+        "category": "Zense"
+      },
+      {
+        "name": "Storage Beds |",
+        "url": "https://www.wakefit.co/bed/storage-bed",
+        "category": "Zense"
+      },
+      {
+        "name": "Without Storage Beds",
+        "url": "https://www.wakefit.co/bed/without-storage-bed",
+        "category": "Zense"
+      },
+      {
+        "name": "Sofa Set Under Rs.10000",
+        "url": "https://www.wakefit.co/sofa-set/sofa-set-under-rs-ten-thousand",
+        "category": "Zense"
+      },
+      {
+        "name": "Shop Now @",
+        "url": "https://www.wakefit.co/zense/regul8-mattress-temperature-controller/WZRGL7872",
+        "category": "Zense"
+      },
+      {
+        "name": "Wakefit Purple Butterfly Pillow% off",
+        "url": "https://www.wakefit.co/medical-pillows/cervical-pillow/WCNPMFPRRGBF",
+        "category": "Mattress"
+      },
+      {
+        "name": "Wakefit Pink Butterfly Pillow% off",
+        "url": "https://www.wakefit.co/medical-pillows/cervical-pillow/WCNPMFPNRGBF",
+        "category": "Mattress"
+      },
+      {
+        "name": "Fairora Toy Storage% off",
+        "url": "https://www.wakefit.co/kids-furniture/fairora-kids-toy-storage/WKTSFAIRORA",
+        "category": "Mattress"
+      },
+      {
+        "name": "Fairora 3 Chest Of Drawer% off",
+        "url": "https://www.wakefit.co/kids-furniture/fairora-kids-chest-of-drawer/WKCODFAIRORA3DWH",
+        "category": "Mattress"
+      },
+      {
+        "name": "Fairora 7 Chest Of Drawer% off",
+        "url": "https://www.wakefit.co/kids-furniture/fairora-kids-chest-of-drawer/WKCODFAIRORA7DWH",
+        "category": "Mattress"
+      },
+      {
+        "name": "200 TC Solid Fitted Bedsheet With Pillow Cover% off",
+        "url": "https://www.wakefit.co/bedding/fitted-bedsheet/WFB7230GLDYLW",
+        "category": "Mattress"
+      },
+      {
+        "name": "200 TC Solid Fitted Bedsheet With Pillow Cover% off",
+        "url": "https://www.wakefit.co/bedding/fitted-bedsheet/WFB7230AYGR",
+        "category": "Mattress"
+      },
+      {
+        "name": "Memory Foam Mattress",
+        "url": "https://www.wakefit.co/mattress/orthopaedic-memory-foam-mattress/WOMFM72366",
+        "category": "Mattress"
+      },
+      {
+        "name": "latex mattress",
+        "url": "https://www.wakefit.co/mattress/latex-hybrid-pocket-spring-mattress/WFLATHYB72366",
+        "category": "Mattress"
+      },
+      {
+        "name": "grid mattress",
+        "url": "https://www.wakefit.co/mattress/xpert-grid-mattress/WFXGSM72366R1",
+        "category": "Mattress"
+      },
+      {
+        "name": "grid hybrid pocket spring mattress",
+        "url": "https://www.wakefit.co/mattress/xpertgrid-hybrid-pocket-spring-mattress/WFXGHYB72366",
+        "category": "Mattress"
+      },
+      {
+        "name": "dual comfort mattress",
+        "url": "https://www.wakefit.co/mattress/dual-comfort-mattress/WDCM72366",
+        "category": "Mattress"
+      },
+      {
+        "name": "rollup mattress",
+        "url": "https://www.wakefit.co/mattress/flow-mattress/WFMPSMGS",
+        "category": "Mattress"
+      },
+      {
+        "name": "mattress for back pain",
+        "url": "https://www.wakefit.co/mattress/mattress-for-back-pain",
+        "category": "Mattress"
+      },
+      {
+        "name": "mattress for sciatica",
+        "url": "https://www.wakefit.co/mattress/mattress-for-sciatica",
+        "category": "Mattress"
+      },
+      {
+        "name": "baby mattress",
+        "url": "https://www.wakefit.co/mattress/baby-mattress-for-cribs/WCRBMATSMALR1",
+        "category": "Mattress"
+      },
+      {
+        "name": "Wakefit Elevate Pocket Spring Mattress with Memory Foam",
+        "url": "https://www.wakefit.co/mattress/ortho-spring-mattress-elevate/WEPSM72366",
+        "category": "Mattress"
+      },
+      {
+        "name": "Antho King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7872SVBLANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Auriga King Size Bed (78x72 inch)KingSingleQueen% off",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-auriga/WSWB7872AUGR4",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars King Hydraulic Storage Bed Omega Pearl (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-hydraulic-storage-mars/WEWB7872HYSUPOPLMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Engineered Wood Queen Size Non Storage Bed (78x60 inch)QueenSingleKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-without-storage-bed-taurus/WEWB7860NONTAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Cosmo Platform Low Height Engineered Wood Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-cosmo/WEWB7860COSMO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Kepler Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-beds-with-storage-kepler/WUWB7860SVAMKEPLR",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Nilaka King Storage Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/nilaka-solid-wood-storage-bed/WSWB7872SNILNB",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars Queen Hydraulic Storage Bed Omega Pearl (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-hydraulic-storage-mars/WEWB7860HYSUPOPLMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Swirl Solid Wood Queen Size Without Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-non-storage-swirl/WSWB7860SWRGB",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars Queen Storage Bed Omega Pearl (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-storage-mars/WEWB7860SUPOPLMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Indus King Teak Bed Without Storage (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/teak-wood-bed-indus/WTWB7872INDR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7872SFVSGVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Arca Queen Engineered Wood Bed with Hydraulic Storage (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-arca/WEWB7860HYSARCAUT",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Lumelle Queen Size Hydraulic Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/lumelle-upholstered-bed/WUWB7860HSLVGRLUMELLE",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Engineered Wood King Size Non Storage Bed (78x72 inch)KingSingleQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-without-storage-bed-taurus/WEWB7872NONTAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Hibernis King Size Hydraulic Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/hibernis-upholstered-bed/WUWB7872HSFCGRHIBERNIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Ara King Teak Bed Without Storage (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/teak-wood-bed-ara/WTWB7872ARAR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "| 0Stellure Queen Hydraulic Storage Bed (78x60 inch)Queen% off",
+        "url": "https://www.wakefit.co/bed/hydraulic-storage-bed-stellure/WSWB7860HYSSTELLURE",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura Queen Size Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7860SFVSGVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "| 0Nuvetta Queen Non Storage Bed (78x60 inch)Queen% off",
+        "url": "https://www.wakefit.co/bed/nuvetta-queen-non-storage/WSWB7860NUVETTA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars Queen Hydraulic Storage Bed Omega Grey (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-hydraulic-storage-mars/WEWB7860HYSUPOGRMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars Queen Storage Bed Omega Grey (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-storage-mars/WEWB7860SUPOGRMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura Queen Size Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7860SFVSTVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Opazin King Non-Storage Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-opazin/WSWB7872OZNIWR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars King Hydraulic Storage Bed Omega Grey (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-hydraulic-storage-mars/WEWB7872HYSUPOGRMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Celestra King Size Without Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/celestra-upholstered-bed/WUWB7872NSLOBGCELESTRA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars King Storage Bed Omega Grey (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-storage-mars/WEWB7872SUPOGRMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Hibernis King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/hibernis-upholstered-bed/WUWB7872SFUBRHIBERNIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7872SVSTANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Pegasi King Solid wood bed without storage (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-without-storage-pegasi/WSWB7872PEGGB",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho Queen Size Hydraulic Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/hydraulic-upholstered-storage-bed-antho/WUWB7860HSVSTANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Celestra King Size Without Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/celestra-upholstered-bed/WUWB7872NSLOWHCELESTRA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars King Storage Bed Omega Pearl (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-storage-mars/WEWB7872SUPOPLMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7860SVSTANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Queen Storage Engineered Wood Bed with Hydraulic mechanism (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-hydraulic-storage-taurus/WEWB7860HYSTAURUSR4",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Engineered Wood Bed without Storage (72x36 inch)SingleQueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-without-storage-bed-taurus/WEWB7236NONTAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Kepler Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-beds-with-storage-kepler/WUWB7860SVTTKEPLR",
+        "category": "Bed |"
+      },
+      {
+        "name": "| 0Orivis Queen Non Storage Bed (78x60 inch)Queen% off",
+        "url": "https://www.wakefit.co/bed/orivis-queen-non-storage/WSWB7860ORIVIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars King Non Storage Bed Omega Pearl (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-non-storage-mars/WEWB7872NONUPOPLMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Engineered Wood Bed with Storage (72x36 inch)SingleQueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-taurus/WEWB7236STAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Solis King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-with-storage-solis/WUWB7872SVSTSOLIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Queen Storage Engineered Wood Bed (75x60 inch)QueenSingleKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-taurus/WEWB7560STAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7872SVTTANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Mrudul King Non storage Solid wood Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-mrudul/WSWB7872MRDRSR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Lumelle Queen Size Hydraulic Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/lumelle-upholstered-bed/WUWB7860HSLVCCLUMELLE",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Swirl Solid Wood Queen Size Wthout Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-non-storage-swirl/WSWB7860SWRSB",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Zewail Without Storage King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-bed-without-storage-zewail/WUWB7872VSTZEWAIL",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Crucis Queen Solid Wood Bed Without Storage (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-without-storage-crucis/WSWB7860CRSMG",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura King Size Hydraulic Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7872HSFVSTVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Engineered Wood Bed without Storage (78x36 inch)SingleQueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-without-storage-bed-taurus/WEWB7836NONTAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus King Storage Engineered Wood Bed - Wenge (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-upholstered-beds-with-storage-taurus/WEWB7872STAURUSWE",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Zewail Hydraulic King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-bed-with-storage-zewail/WUWB7872SNBGZEWAIL",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Pegasi Queen Solid wood bed with storage (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-storage-pegasi/WSWB7860SPEGGB",
+        "category": "Bed |"
+      },
+      {
+        "name": "Centaur King size Non- Storage bed (78x72 inch)KingSingleQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-without-storage-centaur/WEWB7872NONCNTR",
+        "category": "Bed |"
+      },
+      {
+        "name": "Solis Upholstered Queen Bed without Storage (velvet stone) (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-bed-solis/WUWB7860VSTSOLIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Queen Storage Engineered Wood Bed - Mouldou Acacia (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-upholstered-beds-with-storage-taurus/WEWB7860STAURUSMA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Asterion Queen Size Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/asterion-upholstered-bed/WUWB7860SFVSTGRASTERION",
+        "category": "Bed |"
+      },
+      {
+        "name": "0Ved Queen Non Storage Teak Wood Bed (78x60 inch)Queen% off",
+        "url": "https://www.wakefit.co/bed/teak-wood-queen-non-storage-bed-ved/WSWB7860IFVEDDBT",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus King Storage Engineered Wood Bed with Hydraulic mechanism (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-hydraulic-storage-taurus/WEWB7872HYSTAURUSR4",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars King Non Storage Bed Omega Grey (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-non-storage-mars/WEWB7872NONUPOGRMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Queen Storage Engineered Wood Bed - Wenge (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-upholstered-beds-with-storage-taurus/WEWB7860STAURUSWE",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Asterion Queen Size Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/asterion-upholstered-bed/WUWB7860SFVBLSGASTERION",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Anokhi King Storage Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/anokhi-solid-wood-bed-with-box-storage/WSWB7872SPWANOKHINB",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Asterion King Size Non Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/asterion-upholstered-bed/WUWB7872NSFVSTGRASTERION",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus King Storage Engineered Wood Bed (72x72 inch)KingSingleQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-taurus/WEWB7272STAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Zewail Hydraulic King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-bed-with-storage-zewail/WUWB7872SNTNZEWAIL",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Auriga Queen Size Bed (78x60 inch)QueenSingleKing% off",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-auriga/WSWB7860AUGR4",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura Queen Size Hydraulic Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7860HSFVBLVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars Queen Non Storage Bed Omega Pearl (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-non-storage-mars/WEWB7860NONUPOPLMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Leo Queen Storage Engineered Wood Bed (75x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-leo/WEWB7560SLEOR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7860SVBLANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Opazin Queen Non-Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-opazin/WSWB7860OZNIWR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho Queen Size Hydraulic Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/hydraulic-upholstered-storage-bed-antho/WUWB7860HSVSGANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Zewail Without Storage Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-bed-without-storage-zewail/WUWB7860NBGZEWAIL",
+        "category": "Bed |"
+      },
+      {
+        "name": "Leo Queen Storage Engineered Wood Bed - Wyoming maple (78x60 inch)Queen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-upholstered-beds-with-storage-leo/WEWB7860SLEOWM",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Zewail Hydraulic Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-bed-with-storage-zewail/WUWB7860SVBLZEWAIL",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Pavo Queen Non-Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-non-storage-pavo/WSWB7860PAVOIWR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Asterion King Size Non Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/asterion-upholstered-bed/WUWB7872NSFVBLSGASTERION",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7860SVSGANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Andromeda King Size Sheesham Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-andromeda/WSWB7872AMD",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Celestra Queen Size Hydraulic Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/celestra-upholstered-bed/WUWB7860HSLOWHCELESTRA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Centaur King size Storage bed (78x72 inch)KingSingleQueen% off",
+        "url": "https://www.wakefit.co/bed/centaur-storage-bed/WEWB7872SCNTR",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Asterion King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/asterion-upholstered-bed/WUWB7872SFVSTGRASTERION",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Mrudul Queen Non storage Solid wood Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-mrudul/WSWB7860MRDRSR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura Queen Size Hydraulic Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7860HSFVSGVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Struve King Size Metal Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/struve-metal-bed/WMTBSTRUVE7872R1",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Zewail Hydraulic Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-bed-with-storage-zewail/WUWB7860SNBGZEWAIL",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Lunarix Queen Storage with Upholstery Solid Wood Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/lunarix-solid-wood-storage-bed/WSWB7860SLUNARAG",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Swirl Solid Wood Queen Size Wthout Storage Bed (78x60 inch)Queen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-non-storage-swirl/WSWB7860SWRMG",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Single size Engineered Wood Bed with Storage (78x36 inch)Single% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-taurus/WEWB7836STAURUSPGR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Zewail Hydraulic King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-upholstered-bed-with-storage-zewail/WUWB7872SVBLZEWAIL",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Andromeda King Sheesham Wood Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-with-storage-andromeda/WSWB7872SAMDR3",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho Queen Size Hydraulic Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/hydraulic-upholstered-storage-bed-antho/WUWB7860HSVBLANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "Mars Queen Non Storage Bed Omega Grey (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-non-storage-mars/WEWB7860NONUPOGRMARS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Leo King Storage Engineered Wood Bed (72x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-leo/WEWB7272SLEOR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Solis King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-with-storage-solis/WUWB7872SVBLSOLIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Venus Queen Storage Engineered Wood Bed with Hydraulic mechanism (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-hydrolic-storage-venus/WEWB7860HYSVENUS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Orion Engineered Wood Queen Size Non Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-without-storage-bed-orion/WEWB7860NONORIONR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Surma King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-with-storage-surma/WUWB7872SOGRSURMA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Celestra King Size Hydraulic Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/celestra-upholstered-bed/WUWB7872HSLODGCELESTRA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Solis Upholstered Queen Bed without Storage (velvet blue) (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-bed-solis/WUWB7860VBLSOLIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Aquari Queen Hydraulic Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-headboard-hydraulic-storage-aquari/WSWB7860HYSARIGB",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Lantana Single Folding Bed (78x36 inch)Single% off",
+        "url": "https://www.wakefit.co/bed/lantana-folding-metal-bed/WMTB7836LANTANA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Tesser Queen Engineered Wood Bed with Storage (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/tesser-engineered-wood-bed/WEWB7860STESSERCW",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7872SVAMANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Opazin Queen Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-storage-opazin/WSWB7860SOZNIWR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura King Size Hydraulic Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7872HSFVSGVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Astra King Engineered Wood Bed Without Storage (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-non-storage-bed-astra/WEWB7872NONASTRA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Altaira Engineered Wood Diwan With Storage (72x30 inch)Diwan% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-diwan-with-storage-altaira/WEWB7230SALT",
+        "category": "Bed |"
+      },
+      {
+        "name": "Lanta Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-lanta/WUWB7860SOBLLANTA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Auriga King Sheesham Wood Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-with-storage-auriga/WSWB7872SAUGR3",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Andromeda Hydraulic Queen Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-with-hydraulic-storage-andromeda/WSWB7860HYSAMD",
+        "category": "Bed |"
+      },
+      {
+        "name": "Orion Engineered Wood Bed with Storage (78*72inch) / (1.98m*1.83m) (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-orion/WEWB7872SORIONR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "SurmaQueen Size Without Storage Upholstered Bed, Omega Grey (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-surma/WUWB7860OGRSURMA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho King Size Hydraulic Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/hydraulic-upholstered-storage-bed-antho/WUWB7872HSVBLANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "Astra Engineered Wood Bed With Storage (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-astra/WEWB7872SASTRA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Surma Queen Size Without Storage Upholstered Bed, Omega Blue (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-surma/WUWB7860OBLSURMA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Nilaka Queen Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/nilaka-solid-wood-storage-bed/WSWB7860SNILNB",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Lumelle King Size Hydraulic Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/lumelle-upholstered-bed/WUWB7872HSLVGRLUMELLE",
+        "category": "Bed |"
+      },
+      {
+        "name": "Centaur King size Non- Storage bed - Wyoming maple (78x72 inch)KingSingleQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-without-storage-centaur/WEWB7872NONCNTRWM",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Single Size Engineered Wood Bed With Storage (78x36 inch)SingleQueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-taurus/WEWB7836STAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Solis Queen Size Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-with-storage-solis/WUWB7860SVAMSOLIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Centaur Queen size Non- Storage bed (78x60 inch)QueenSingleKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-without-storage-centaur/WEWB7860NONCNTR",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7872SFVSTVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Mrudul King storage Solid wood Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-storage-mrudul/WSWB7872SMRDRSR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Kora Queen Storage Engineered Wood Bed with Hydraulic mechanism (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-kora/WEWB7860HYSKORACWB",
+        "category": "Bed |"
+      },
+      {
+        "name": "Centaur Single Size Non-Storage Bed (78x36 inch)SingleQueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-without-storage-centaur/WEWB7836NONCNTRWM",
+        "category": "Bed |"
+      },
+      {
+        "name": "Venus Engineered Wood Bed with Storage (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-storage-venus/WEWB7872SVENUS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7860SVTTANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Halos Queen Storage Engineered Wood Bed with Hydraulic mechanism (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/halos-engineered-wood-bed/WEWB7860HYSHALOSFW",
+        "category": "Bed |"
+      },
+      {
+        "name": "Leo Engineered Wood Queen Size Non Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-without-storage-bed-leo/WEWB7860NONLEOR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Cosmo Queen Engineered wood bed Non Storage (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-cosmo/WEWB7860COSMOPG",
+        "category": "Bed |"
+      },
+      {
+        "name": "Surma King Size Without Storage Upholstered Bed, Omega Blue (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-surma/WUWB7872OBLSURMA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Kairavi Queen Non-Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-non-storage-bed-kairavi/WSWB7860KAIWMR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Tesser Queen Storage Engineered Wood Bed with Hydraulic mechanism (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/tesser-engineered-wood-bed/WEWB7860HYSTESSERCW",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Struve Queen Size Metal Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/struve-metal-bed/WMTBSTRUVE7860R1",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Queen Side Storage Engineered Wood Bed Columbian walnut (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-side-storage-taurus/WEWB7860SSTAURUSR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura Queen Size Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7860SFVBLVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Santi sheesham wood king size bed with Storage (78x72 inch)King% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-santi/WSWB7872SSANT",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho King Size Hydraulic Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/hydraulic-upholstered-storage-bed-antho/WUWB7872HSVSTANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "Petra Headboard Storage - King size - Wyoming Maple (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-hydraulic-storage-petra/WEWB7872SPETRAWM",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Velura King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/velura-upholstered-bed/WUWB7872SFVBLVELURA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Crucis King Solid Wood Bed With Storage (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-storage-crucis/WSWB7872SCRSMG",
+        "category": "Bed |"
+      },
+      {
+        "name": "Petra King Engineered Wood Bed Without Storage (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-non-storage-bed-petra/WEWB7872NONPETRA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Taurus Single size Engineered Wood Bed with Storage (72x36 inch)Single% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-with-storage-taurus/WEWB7236STAURUSPGR2",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho Queen Size Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7860SVAMANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Rico Solid Wood Queen Size With Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-storage-rico/WSWB7860SRIC",
+        "category": "Bed |"
+      },
+      {
+        "name": "Centaur Single Size Non-Storage Bed (78x36 inch)SingleQueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-without-storage-centaur/WEWB7836NONCNTR",
+        "category": "Bed |"
+      },
+      {
+        "name": "Centaur Queen size Storage bed - Wyoming maple (78x60 inch)QueenSingleKing% off",
+        "url": "https://www.wakefit.co/bed/centaur-storage-bed/WEWB7860SCNTRWM",
+        "category": "Bed |"
+      },
+      {
+        "name": "Surma King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-with-storage-surma/WUWB7872SOBLSURMA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Pavo King Non-Storage Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-non-storage-pavo/WSWB7872PAVOIWR1",
+        "category": "Bed |"
+      },
+      {
+        "name": "Algol Queen Storage Engineered Wood Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-bed-algol-storage/WEWB7860SALGOL",
+        "category": "Bed |"
+      },
+      {
+        "name": "Surma Queen Size Storage Upholstered Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-with-storage-surma/WUWB7860SOGRSURMA",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Auriga Single Sheesham Bed Without Storage (78x36 inch)SingleQueenKing% off",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-auriga/WSWB7836AUG",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Stud Queen Hydraulic Storage Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/solid-wood-bed-with-hydraulic-storage-stud/WSWB7860HYSSTUDIW",
+        "category": "Bed |"
+      },
+      {
+        "name": "Astra Queen Engineered Wood Bed Without Storage (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-non-storage-bed-astra/WEWB7860NONASTRA",
+        "category": "Bed |"
+      },
+      {
+        "name": "Solis King Size Storage Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-beds-with-storage-solis/WUWB7872SVTTSOLIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "0 Andromeda Queen Sheesham Wood Bed (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-with-storage-andromeda/WSWB7860SAMDR3",
+        "category": "Bed |"
+      },
+      {
+        "name": "Venus Engineered Wood Bed with Storage (78x60 inch)QueenKing% off",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-storage-venus/WEWB7860SVENUS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Antho King Size Upholstered Bed (78x72 inch)KingQueen% off",
+        "url": "https://www.wakefit.co/bed/upholstered-storage-bed-antho/WUWB7872SVSGANTHO",
+        "category": "Bed |"
+      },
+      {
+        "name": "Wakefit Hibernis King Size Storage Upholstered Bed% off",
+        "url": "https://www.wakefit.co/bed/hibernis-upholstered-bed/WUWB7872SFCBGHIBERNIS",
+        "category": "Bed |"
+      },
+      {
+        "name": "Solid Wood Beds",
+        "url": "https://www.wakefit.co/bed/solid-wood-beds",
+        "category": "Bed |"
+      },
+      {
+        "name": "Engineered Wood Beds",
+        "url": "https://www.wakefit.co/bed/engineered-wood-beds",
+        "category": "Bed |"
+      },
+      {
+        "name": "Sheesham Wood Beds",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-beds",
+        "category": "Bed |"
+      },
+      {
+        "name": "Teak Wood Beds",
+        "url": "https://www.wakefit.co/bed/teak-wood-bed",
+        "category": "Bed |"
+      },
+      {
+        "name": "Metal Beds",
+        "url": "https://www.wakefit.co/bed/metal-bed",
+        "category": "Bed |"
+      },
+      {
+        "name": "Upholstered Beds",
+        "url": "https://www.wakefit.co/bed/upholstered-beds",
+        "category": "Bed |"
+      },
+      {
+        "name": "Kids Bed",
+        "url": "https://www.wakefit.co/bed/kids-bed",
+        "category": "Bed |"
+      },
+      {
+        "name": "Wakefit Eclipse King Size Bed with Dark Grey Upholstered Headboard- with Hydraulic Storage",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-eclipse/WEWB7872HYSUPDGECLIPSEUT",
+        "category": "Bed |"
+      },
+      {
+        "name": "Wakefit Nix King Size Storage Engineered Wood Bed with Hydraulic mechanism",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-nix/WEWB7872HYSNIXCW",
+        "category": "Bed |"
+      },
+      {
+        "name": "Wakefit Noctis King Storage Engineered Wood Bed With Camel Fabric Upholstered Headboard-with Hydraulic mechanism",
+        "url": "https://www.wakefit.co/bed/engineered-wood-bed-noctis/WEWB7872HYSUPCFNOCTISWM",
+        "category": "Bed |"
+      },
+      {
+        "name": "Wakefit Tesser King Storage Engineered Wood Bed with Hydraulic mechanism",
+        "url": "https://www.wakefit.co/bed/tesser-engineered-wood-bed/WEWB7872HYSTESSERCW",
+        "category": "Bed |"
+      },
+      {
+        "name": "Beds Under",
+        "url": "https://www.wakefit.co/static-category-page/bed-under-10000",
+        "category": "Bed |"
+      },
+      {
+        "name": "Beds Under",
+        "url": "https://www.wakefit.co/static-category-page/bed-under-20000",
+        "category": "Bed |"
+      },
+      {
+        "name": "Beds Under",
+        "url": "https://www.wakefit.co/static-category-page/bed-under-30000",
+        "category": "Bed |"
+      },
+      {
+        "name": "Beds Under",
+        "url": "https://www.wakefit.co/static-category-page/bed-under-40000",
+        "category": "Bed |"
+      },
+      {
+        "name": "Flipper Sofa Cum Bed - Three Seater (6'x5') Feet- WarpKnit GreyWarpknit Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/flipper-sofa-cum-bed-three-seater/WSFAFLPSN3FWGR",
+        "category": "Living"
+      },
+      {
+        "name": "Lumara Sofa -Three SeaterStone and Dark FantasySpace Grey and Marble Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/lumara-sofa/WSFALMRN3FVSD",
+        "category": "Living"
+      },
+      {
+        "name": "0 Crete Sofa With Motion - One SeaterBlackDark GreyBrownBeigeTanWhiteCurry BrownPista% off",
+        "url": "https://www.wakefit.co/sofa-set/crete-sofa-with-recliner/WSFACRTMN1FVBG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Savona Sofa - One SeaterBeigeTaupeDeep OceanGraphiteDark GreyBrownBeigeTanWhiteCurry BrownPista% off",
+        "url": "https://www.wakefit.co/sofa-set/savona-sectional-sofa/WSFASVNN1FVBG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Samos Sofa With Revolving - One SeaterBlueBrownYellowBrownGreen% off",
+        "url": "https://www.wakefit.co/sofa-set/samos-sofa/WSFASMSN1FPBL",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tuvalu Large Sofa With Motion - Two SeaterBlackDark GreyBrownTanWhiteCurry BrownPista% off",
+        "url": "https://www.wakefit.co/sofa-set/tuvalu-sofa/WSFATVLLRMN2LOBK",
+        "category": "Living"
+      },
+      {
+        "name": "0Naxos (3 Seater+ Right Aligned Chaise)GreyGreenMaroon% off",
+        "url": "https://www.wakefit.co/sofa-set/naxos-sofa/WSFANXSR3CFUGR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Komodo Sofa - Three SeaterCamel & BeigeBeigeCamelBlackBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/komodo-sofa/WSFAKMDN3LRCB",
+        "category": "Living"
+      },
+      {
+        "name": "0 Porto Sofa - Three SeaterMaroonSepiaCreamBeigeDark Mocha% off",
+        "url": "https://www.wakefit.co/sofa-set/porto-sectional-sofa/WSFAPOTN3LTMR",
+        "category": "Living"
+      },
+      {
+        "name": "Stargazer Recliner - Rocking & Revolving% off",
+        "url": "https://www.wakefit.co/sofa-set/stargazer-revolving-rocking-recliner/WRCLSGRS1LRDF",
+        "category": "Living"
+      },
+      {
+        "name": "0 Lounger Plus Sofa - (3 Seater + Right Aligned Chaise)Deep OceanGraphiteBeige% off",
+        "url": "https://www.wakefit.co/sofa-set/lounger-plus-sofa/WSFALGRPR3CFVDOR1",
+        "category": "Living"
+      },
+      {
+        "name": "0 Samos Sofa - Three SeaterMaroonBlueGreyGreenBrownTaupeYellowBlueBrownPinkGreenBeige% off",
+        "url": "https://www.wakefit.co/sofa-set/samos-sofa/WSFASMSN3FUMR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Todi Sofa With Motion Set (3+2) SeaterWhiteBlackDark GreyBrownBeigeTanCurry BrownPista% off",
+        "url": "https://www.wakefit.co/sofa-set/todi-sofa-with-recliner/WSFATODMN32LOWH",
+        "category": "Living"
+      },
+      {
+        "name": "0 Mirabel Sofa Set (3+2) SeaterBrownBluePinkBeigeGreen% off",
+        "url": "https://www.wakefit.co/sofa-set/mirabel-3-seater-sofa/WSFAMRBN32FPBR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Dreamer Plus L Shape Sofa Set (3 Seater + Left Aligned Chaise)BeigeDeep OceanGraphite% off",
+        "url": "https://www.wakefit.co/sofa-set/dreamer-plus-sofa/WSFADMRPL3CFVBGR1",
+        "category": "Living"
+      },
+      {
+        "name": "Extra Discount| 0 Tahiti Sofa - Three SeaterBeigeTanBlackIvoryBlue% off",
+        "url": "https://www.wakefit.co/sofa-set/tahiti-sofa/WSFATHTN3LRBG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Azores Sofa - Three SeaterTanBeigeBlueBlackIvoryBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/azores-sofa/WSFAAZRN3LRTN",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tasmania Sofa - Two SeaterTuscan TanBlueSpace GreyAmberStone% off",
+        "url": "https://www.wakefit.co/sofa-set/tasmania-sofa/WSFATSNN2FVTT",
+        "category": "Living"
+      },
+      {
+        "name": "0 Kiribati Sofa Set (3+2) SeaterCappuccinoGreenGreyBlueBeigeForest GreenBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/kiribati-sofa/WSFAKBTN32LVCC",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tuvalu Large Sofa Without Motion - Three SeaterCappuccinoGreyBlueGreenBeigeForest GreenBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/tuvalu-sofa/WSFATVLLRNMN3LVCC",
+        "category": "Living"
+      },
+      {
+        "name": "0 Osuna Sofa - Two SeaterBeigeGreenGreyBlueForest GreenBrownCappuccinoMaroonGreyGreen% off",
+        "url": "https://www.wakefit.co/sofa-set/osuna-sofa/WSFAOSNN2LVBG",
+        "category": "Living"
+      },
+      {
+        "name": "Hawaii Sofa - 3 Seater - Sky GreenSky GreenDark Blue% off",
+        "url": "https://www.wakefit.co/sofa-set/hawaii-sofa/WSFAHAWN3FJSG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Ubud Sofa Without Motion - One SeaterPistaBlackDark GreyBrownBeigeTanWhiteCurry Brown% off",
+        "url": "https://www.wakefit.co/sofa-set/ubud-sofa-with-recliner/WSFAUBDNMN1LOPS",
+        "category": "Living"
+      },
+      {
+        "name": "Tulum Printed Ottoman - Eva GreyEva GreyEva MaroonEva BlueEva BrownEva Teal% off",
+        "url": "https://www.wakefit.co/sofa-set/tulum-ottoman/WSFATLMPOFEGR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Todi Sofa With Motion - Three SeaterCurry BrownBlackDark GreyBrownBeigeTanWhitePista% off",
+        "url": "https://www.wakefit.co/sofa-set/todi-sofa-with-recliner/WSFATODMN3LOCB",
+        "category": "Living"
+      },
+      {
+        "name": "0 Comoros Corner L Shape Sofa (3 Seater + Right Aligned Chaise)Deep OceanGraphiteBeige% off",
+        "url": "https://www.wakefit.co/sofa-set/comoros-l-shape-sofa/WSFACMRR3CFVDOR1",
+        "category": "Living"
+      },
+      {
+        "name": "0 Solomon Sofa Set (3+2) SeaterBeigeIvoryTan% off",
+        "url": "https://www.wakefit.co/sofa-set/solomon-sofa/WSFASLMN32LRBG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Gozo Sofa - Two SeaterBlueRedBeigeBrownGreyYellow% off",
+        "url": "https://www.wakefit.co/sofa-set/gozo-sofa/WSFAGZON2FMBL",
+        "category": "Living"
+      },
+      {
+        "name": "Lowest Price Ever| 0 Brunei Love seat Sofa - 2 SeaterBlossom% off",
+        "url": "https://www.wakefit.co/sofa-set/brunei-sofa/WSFABRNN2FPFB",
+        "category": "Living"
+      },
+      {
+        "name": "0 Virelia Electric Recliner - Single Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/virelia-recliner/WRCLVRLEN1FVTT",
+        "category": "Living"
+      },
+      {
+        "name": "0 Virelia Rocking & Revolving Recliner - Single Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/virelia-recliner/WRCLVRLS1FVST",
+        "category": "Living"
+      },
+      {
+        "name": "0 Restmax Recliner - 1 Seater - Dark Fantasy% off",
+        "url": "https://www.wakefit.co/sofa-set/restmax-recliner/WRCLRTMN1LRDF",
+        "category": "Living"
+      },
+      {
+        "name": "Empress Recliner - 1 Seater - Dark Fantasy% off",
+        "url": "https://www.wakefit.co/sofa-set/empress-recliner/WRCLEMPN1LRDF",
+        "category": "Living"
+      },
+      {
+        "name": "Stargazer Electric Recliner% off",
+        "url": "https://www.wakefit.co/sofa-set/stargazer-electric-recliner/WRCLSGREN1LRSG",
+        "category": "Living"
+      },
+      {
+        "name": "Explorer Push Back Recliner% off",
+        "url": "https://www.wakefit.co/sofa-set/push-back-recliner-explorer/WRCLEXPPBN1FOPL",
+        "category": "Living"
+      },
+      {
+        "name": "Fast SellingSwayback Recliner - 1 Seater - Velvet Amber% off",
+        "url": "https://www.wakefit.co/sofa-set/swayback-1-seater-recliner/WRCLSWBN1FVAM",
+        "category": "Living"
+      },
+      {
+        "name": "0 Astro Recliner - Single Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/astro-recliner/WRCLASTN1LRBR",
+        "category": "Living"
+      },
+      {
+        "name": "Comforta Recliner - 1 Seater - Marble Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/comforta-1-seater-recliner/WRCLCMTN1LRMG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Muser Recliner - Electric% off",
+        "url": "https://www.wakefit.co/sofa-set/muser-recliner/WRCLMSRM1LMBS",
+        "category": "Living"
+      },
+      {
+        "name": "0 Crete Sofa Without Motion - Three SeaterGreenBlueGreyBeigeCappuccinoForest GreenBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/crete-sofa-with-recliner/WSFACRTNMN3LVGN",
+        "category": "Living"
+      },
+      {
+        "name": "0 Silvan Metallic Ottoman | Lightweight, Compact & Multipurpose | GreyGreyBlack% off",
+        "url": "https://www.wakefit.co/sofa-set/silvan-metallic-ring-ottoman-with-grey-cushion/WSFASLVMOFVGR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Seti Cross Ottoman | Lightweight, Compact & Multipurpose | Black & WhiteBlack & WhiteBlack% off",
+        "url": "https://www.wakefit.co/sofa-set/seti-metallic-cross-ottoman-with-black-cushion/WSFASTIMOFPBW",
+        "category": "Living"
+      },
+      {
+        "name": "Lowest Price Ever| 0 Maseru Sofa - Three SeaterVelvet Savannah% off",
+        "url": "https://www.wakefit.co/sofa-set/maseru-sofa/WSFAMSRN3FVPS",
+        "category": "Living"
+      },
+      {
+        "name": "0 Komodo Sofa - Two SeaterCamel & BeigeBeigeCamelBlackBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/komodo-sofa/WSFAKMDN2LRCB",
+        "category": "Living"
+      },
+      {
+        "name": "0 Naxos Sofa - Three SeaterMaroonGreenGrey% off",
+        "url": "https://www.wakefit.co/sofa-set/naxos-sofa/WSFANXSN3FUMR",
+        "category": "Living"
+      },
+      {
+        "name": "Lumara Sofa -Three SeaterSpace Grey and Marble GreyStone and Dark Fantasy% off",
+        "url": "https://www.wakefit.co/sofa-set/lumara-sofa/WSFALMRN3FVGM",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tahiti Sofa - Two SeaterTanBeigeBlackIvoryBlue% off",
+        "url": "https://www.wakefit.co/sofa-set/tahiti-sofa/WSFATHTN2LRTB",
+        "category": "Living"
+      },
+      {
+        "name": "0 Samos Sofa - Two SeaterBrownBlueGreyGreenBrownTaupeMaroonYellowBluePinkGreenBeige% off",
+        "url": "https://www.wakefit.co/sofa-set/samos-sofa/WSFASMSN2FPBR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tuvalu Sofa without Motion - Two SeaterForest GreenGreyBlueGreenBeigeBrownCappuccino% off",
+        "url": "https://www.wakefit.co/sofa-set/tuvalu-sofa/WSFATVLSMNMN2LVFG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Azores Sofa - Two SeaterIvoryBeigeBlueTanBlackBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/azores-sofa/WSFAAZRN2LRIV",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tasmania Sofa - Two SeaterBlueSpace GreyAmberStoneTuscan Tan% off",
+        "url": "https://www.wakefit.co/sofa-set/tasmania-sofa/WSFATSNN2FVBL",
+        "category": "Living"
+      },
+      {
+        "name": "0 Suva Sofa - Three SeaterBeigeBlueTanBlackCamelBrownDeep OceanGraphiteTaupeBeige% off",
+        "url": "https://www.wakefit.co/sofa-set/suva-sofa/WSFASUVN3LRBG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Mirabel Sofa - Three SeaterPinkBlueBrownBeigeGreen% off",
+        "url": "https://www.wakefit.co/sofa-set/mirabel-3-seater-sofa/WSFAMRBN3FPLP",
+        "category": "Living"
+      },
+      {
+        "name": "0 Kiribati Sofa - Three SeaterBrownGreenGreyBlueBeigeForest GreenCappuccino% off",
+        "url": "https://www.wakefit.co/sofa-set/kiribati-sofa/WSFAKBTN3LVBR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Snoozepro Plus L Shape Sofa Set (3 Seater + Left Aligned Chaise)BeigeGraphite% off",
+        "url": "https://www.wakefit.co/sofa-set/snooze-pro-plus/WSFASZRPL3CFVBGR1",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tuvalu Large Sofa Without Motion - Two SeaterForest GreenGreyBlueGreenBeigeBrownCappuccino% off",
+        "url": "https://www.wakefit.co/sofa-set/tuvalu-sofa/WSFATVLLRNMN2LVFG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Osuna Sofa - Three SeaterGreyGreenGreyBlueBeigeForest GreenBrownCappuccinoMaroonGreen% off",
+        "url": "https://www.wakefit.co/sofa-set/osuna-sofa/WSFAOSNN3FUGR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Ubud Sofa With Motion - Three SeaterBeigeBlackDark GreyBrownTanWhiteCurry BrownPista% off",
+        "url": "https://www.wakefit.co/sofa-set/ubud-sofa-with-recliner/WSFAUBDMN3LOBG",
+        "category": "Living"
+      },
+      {
+        "name": "Tulum Printed Ottoman - Eva TealEva TealEva MaroonEva GreyEva BlueEva Brown% off",
+        "url": "https://www.wakefit.co/sofa-set/tulum-ottoman/WSFATLMPOFETL",
+        "category": "Living"
+      },
+      {
+        "name": "0 Todi Sofa Without Motion - One SeaterBlueGreyBeigeCappuccinoForest GreenBrownGreen% off",
+        "url": "https://www.wakefit.co/sofa-set/todi-sofa-with-recliner/WSFATODNMN1LVBL",
+        "category": "Living"
+      },
+      {
+        "name": "0 Comoros Corner L Shape Sofa (3 Seater + Right Aligned Chaise)TaupeTanBeige% off",
+        "url": "https://www.wakefit.co/sofa-set/comoros-l-shape-sofa/WSFACMRR3CFVTP",
+        "category": "Living"
+      },
+      {
+        "name": "Lowest Price Ever| 0 Solomon Sofa - Three SeaterBeigeIvoryTan% off",
+        "url": "https://www.wakefit.co/sofa-set/solomon-sofa/WSFASLMN3LRBG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Virelia Rocking & Revolving Recliner - Single Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/virelia-recliner/WRCLVRLS1FVSG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Restmax Recliner - 1 Seater - Marble Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/restmax-recliner/WRCLRTMN1LRMG",
+        "category": "Living"
+      },
+      {
+        "name": "Lowest Price EverStargazer Recliner - 3 Seater - Marble Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/stargazer-recliner/WRCLSGRN3LRMGR1",
+        "category": "Living"
+      },
+      {
+        "name": "Empress Recliner - 1 Seater - Velvet Tuscan Tan% off",
+        "url": "https://www.wakefit.co/sofa-set/empress-recliner/WRCLEMPN1FVTT",
+        "category": "Living"
+      },
+      {
+        "name": "Stargazer Electric Recliner% off",
+        "url": "https://www.wakefit.co/sofa-set/stargazer-electric-recliner/WRCLSGREN1LRTN",
+        "category": "Living"
+      },
+      {
+        "name": "Explorer Push Back Recliner% off",
+        "url": "https://www.wakefit.co/sofa-set/push-back-recliner-explorer/WRCLEXPPBN1FOAG",
+        "category": "Living"
+      },
+      {
+        "name": "Swayback Recliner - 1 Seater - Velvet Space Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/swayback-1-seater-recliner/WRCLSWBN1FVSG",
+        "category": "Living"
+      },
+      {
+        "name": "Comforta Recliner - 1 Seater - Tan% off",
+        "url": "https://www.wakefit.co/sofa-set/comforta-1-seater-recliner/WRCLCMTN1LRTN",
+        "category": "Living"
+      },
+      {
+        "name": "0Komodo (3 Seater+ Right Aligned Chaise)BrownCamel & BeigeBeigeCamelBlack% off",
+        "url": "https://www.wakefit.co/sofa-set/komodo-sofa/WSFAKMDR3CLRBR",
+        "category": "Living"
+      },
+      {
+        "name": "0Naxos (3 Seater + Left Aligned Chaise)MaroonGreenGrey% off",
+        "url": "https://www.wakefit.co/sofa-set/naxos-sofa/WSFANXSL3CFUMR",
+        "category": "Living"
+      },
+      {
+        "name": "Lumara Sofa -Two SeaterStone and Dark FantasySpace Grey and Marble Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/lumara-sofa/WSFALMRN2FVSD",
+        "category": "Living"
+      },
+      {
+        "name": "0 Belize Plus L Shape Sofa Set (3 Seater + Left Aligned Chaise)BeigeDeep OceanGraphite% off",
+        "url": "https://www.wakefit.co/sofa-set/belize-plus-sofa/WSFABLZPL3CFVBGR1",
+        "category": "Living"
+      },
+      {
+        "name": "Havana Sofa - Two Seater Dark EarthDark EarthCobalt BlueMalibu GreenSmoke GreyGreenYellow% off",
+        "url": "https://www.wakefit.co/sofa-set/havana-sofa/WSFAHAVN2FMDE",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tahiti Sofa set (3+2) SeaterIvoryBeigeTanBlackBlue% off",
+        "url": "https://www.wakefit.co/sofa-set/tahiti-sofa/WSFATHTN32LRIV",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tuvalu Sofa without Motion - Three SeaterBeigeGreyBlueGreenForest GreenBrownCappuccino% off",
+        "url": "https://www.wakefit.co/sofa-set/tuvalu-sofa/WSFATVLSMNMN3LVBG",
+        "category": "Living"
+      },
+      {
+        "name": "0 Azores Sofa - Single SeaterTanBeigeBlueBlackIvoryBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/azores-sofa/WSFAAZRN1LRTN",
+        "category": "Living"
+      },
+      {
+        "name": "0 Mirabel L Shape Sofa Set (3 Seater + Left Aligned Chaise)PinkBlueBrownBeigeGreen% off",
+        "url": "https://www.wakefit.co/sofa-set/mirabel-3-seater-sofa/WSFAMRBL3CFPLP",
+        "category": "Living"
+      },
+      {
+        "name": "0 Kiribati Sofa - Two SeaterGreyGreenBlueBeigeForest GreenBrownCappuccino% off",
+        "url": "https://www.wakefit.co/sofa-set/kiribati-sofa/WSFAKBTN2LVGR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tuvalu Large Sofa Without Motion - Three SeaterBrownGreyBlueGreenBeigeForest GreenCappuccino% off",
+        "url": "https://www.wakefit.co/sofa-set/tuvalu-sofa/WSFATVLLRNMN3LVBR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Osuna Sofa Set (3+2) SeaterBlueGreenGreyBeigeForest GreenBrownCappuccinoMaroonGreyGreen% off",
+        "url": "https://www.wakefit.co/sofa-set/osuna-sofa/WSFAOSNN32LVBL",
+        "category": "Living"
+      },
+      {
+        "name": "0 Ubud Sofa Without Motion - Two SeaterWhiteBlackDark GreyBrownBeigeTanCurry BrownPista% off",
+        "url": "https://www.wakefit.co/sofa-set/ubud-sofa-with-recliner/WSFAUBDNMN2LOWH",
+        "category": "Living"
+      },
+      {
+        "name": "0 Todi Sofa Without Motion - Two SeaterBrownGreyBeigeCappuccinoForest GreenGreenBlue% off",
+        "url": "https://www.wakefit.co/sofa-set/todi-sofa-with-recliner/WSFATODNMN2LVBR",
+        "category": "Living"
+      },
+      {
+        "name": "0 Comoros Corner L Shape Sofa (3 Seater + Right Aligned Chaise)TanTaupeBeige% off",
+        "url": "https://www.wakefit.co/sofa-set/comoros-l-shape-sofa/WSFACMRR3CFNTN",
+        "category": "Living"
+      },
+      {
+        "name": "0 Solomon Sofa - Two SeaterIvoryBeigeTan% off",
+        "url": "https://www.wakefit.co/sofa-set/solomon-sofa/WSFASLMN2LRIV",
+        "category": "Living"
+      },
+      {
+        "name": "0 Virelia Rocking & Revolving Recliner - Single Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/virelia-recliner/WRCLVRLS1FVBL",
+        "category": "Living"
+      },
+      {
+        "name": "0 Restmax Recliner - 1 Seater - Velvet Space Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/restmax-recliner/WRCLRTMN1FVSG",
+        "category": "Living"
+      },
+      {
+        "name": "Stargazer Recliner - 2 Seater - Velvet Blue% off",
+        "url": "https://www.wakefit.co/sofa-set/stargazer-recliner/WRCLSGRN2FVBLR1",
+        "category": "Living"
+      },
+      {
+        "name": "Empress Recliner - 1 Seater - Tan% off",
+        "url": "https://www.wakefit.co/sofa-set/empress-recliner/WRCLEMPN1LRTN",
+        "category": "Living"
+      },
+      {
+        "name": "Stargazer Electric Recliner% off",
+        "url": "https://www.wakefit.co/sofa-set/stargazer-electric-recliner/WRCLSGREN1LRDF",
+        "category": "Living"
+      },
+      {
+        "name": "Swayback Recliner - 1 Seater - Velvet Stone% off",
+        "url": "https://www.wakefit.co/sofa-set/swayback-1-seater-recliner/WRCLSWBN1FVST",
+        "category": "Living"
+      },
+      {
+        "name": "Comforta Recliner - 1 Seater - Dark Fantasy% off",
+        "url": "https://www.wakefit.co/sofa-set/comforta-1-seater-recliner/WRCLCMTN1LRDF",
+        "category": "Living"
+      },
+      {
+        "name": "0 Komodo L Shape Sofa Set (3 Seater + Left Aligned Chaise)Camel & BeigeBeigeCamelBlackBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/komodo-sofa/WSFAKMDL3CLRCB",
+        "category": "Living"
+      },
+      {
+        "name": "0 Tahiti Sofa -Three SeaterBlackBeigeTanIvoryBlue% off",
+        "url": "https://www.wakefit.co/sofa-set/tahiti-sofa/WSFATHTN3LRBK",
+        "category": "Living"
+      },
+      {
+        "name": "0 Azores Sofa - Two SeaterBlueBeigeTanBlackIvoryBrown% off",
+        "url": "https://www.wakefit.co/sofa-set/azores-sofa/WSFAAZRN2LRBL",
+        "category": "Living"
+      },
+      {
+        "name": "0 Solomon Sofa - Single SeaterIvoryBeigeTan% off",
+        "url": "https://www.wakefit.co/sofa-set/solomon-sofa/WSFASLMN1LRIV",
+        "category": "Living"
+      },
+      {
+        "name": "0 Restmax Recliner - 1 Seater - Velvet Tuscan Tan% off",
+        "url": "https://www.wakefit.co/sofa-set/restmax-recliner/WRCLRTMN1FVTT",
+        "category": "Living"
+      },
+      {
+        "name": "Stargazer Recliner - 1 Seater - Dark Fantasy% off",
+        "url": "https://www.wakefit.co/sofa-set/stargazer-recliner/WRCLSGRN1LRDF",
+        "category": "Living"
+      },
+      {
+        "name": "Empress Recliner - 1 Seater - Marble Grey% off",
+        "url": "https://www.wakefit.co/sofa-set/empress-recliner/WRCLEMPN1LRMG",
+        "category": "Living"
+      },
+      {
+        "name": "Stargazer Electric Recliner% off",
+        "url": "https://www.wakefit.co/sofa-set/stargazer-electric-recliner/WRCLSGREN1LRMG",
+        "category": "Living"
+      },
+      {
+        "name": "Swayback Recliner - 1 Seater - Velvet Blue% off",
+        "url": "https://www.wakefit.co/sofa-set/swayback-1-seater-recliner/WRCLSWBN1FVBL",
+        "category": "Living"
+      },
+      {
+        "name": "Lumara Sofa Set - (3+2) SeaterSpace Grey and Marble GreyStone and Dark Fantasy% off",
+        "url": "https://www.wakefit.co/sofa-set/lumara-sofa/WSFALMRN32FVGM",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Flexia Sofa cum Bed - Three Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/flexia-sofa-cum-bed/WSFAFLXN3FWGR",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Flexia Sofa cum Bed - Three Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/flexia-sofa-cum-bed/WSFAFLXN3FWBG",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Flexia Sofa cum Bed - Three Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/flexia-sofa-cum-bed/WSFAFLXN3FWBL",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Porto Sofa - One Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/porto-sectional-sofa/WSFAPOTN1LTSP",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Ovelo Sofa - Three Seater% off",
+        "url": "https://www.wakefit.co/sofa-set/ovelo-l-shape-sofa/WSFAOVLN3FPBR",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Ovelo - Rectangular Ottoman% off",
+        "url": "https://www.wakefit.co/sofa-set/ovelo-l-shape-sofa/WSFAOVLNROFPBL",
+        "category": "Living"
+      },
+      {
+        "name": "Recliner Sofa Set",
+        "url": "https://www.wakefit.co/sofa-set/recliners",
+        "category": "Living"
+      },
+      {
+        "name": "3-Seater Sofa Set",
+        "url": "https://www.wakefit.co/sofa-set/3-seater-sofa",
+        "category": "Living"
+      },
+      {
+        "name": "5-Seater Sofa Sets",
+        "url": "https://www.wakefit.co/sofa-set/five-seater-sofa-set",
+        "category": "Living"
+      },
+      {
+        "name": "Sofa-cum-Bed Sets",
+        "url": "https://www.wakefit.co/sofa-set/sofa-cum-bed",
+        "category": "Living"
+      },
+      {
+        "name": "L Shape Sofa",
+        "url": "https://www.wakefit.co/sofa-set/l-shape-sofa",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Flipper Sofa Cum Bed - Three Seater (6'x5') Feet- WarpKnit Grey",
+        "url": "https://www.wakefit.co/sofa-set/flipper-sofa-cum-bed-three-seater/WSFAFLPN3FWGR",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Solatio Sofa - Three Seater",
+        "url": "https://www.wakefit.co/sofa-set/solatio-sofa/WSFASLTN3FJDB",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Napper Sofa - Three Seater",
+        "url": "https://www.wakefit.co/sofa-set/napper-sofa/WSFANPRN3FOBL",
+        "category": "Living"
+      },
+      {
+        "name": "Wakefit Barcelona L Shape Sofa Set (3 Seater + Right Aligned Chaise)",
+        "url": "https://www.wakefit.co/sofa-set/barcelona-l-shape-sofa/WSFABCLR3CFMSGR1",
+        "category": "Living"
+      },
+      {
+        "name": "Sofa Set Under 15000",
+        "url": "https://www.wakefit.co/static-category-page/sofa-sets-under-15000",
+        "category": "Living"
+      },
+      {
+        "name": "Sofa Set Under 20000",
+        "url": "https://www.wakefit.co/static-category-page/sofa-sets-under-20000",
+        "category": "Living"
+      },
+      {
+        "name": "Sofa Set Under 40000",
+        "url": "https://www.wakefit.co/static-category-page/sofa-sets-under-40000",
+        "category": "Living"
+      },
+      {
+        "name": "0 Nuvetta Sheesham Wood 6 Seater Dining Set6 Seater Table with ChairSet of 2 Chairs% off",
+        "url": "https://www.wakefit.co/dining-furniture/nuvetta-dining-table/WDINENUVETAS6NS",
+        "category": "Dining"
+      },
+      {
+        "name": "| 0 Soomari Sheesham Wood 6 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/soomari-dining-table/WDINESOMARIS6",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Taco Metal Dining Chair I Set of 2 I Leatherette Grey% off",
+        "url": "https://www.wakefit.co/dining-furniture/taco-dining-chair/WMDINETACOC2LGR",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Ezio Glass 6 to 8 Seater Extendable Dining Table - White High Gloss Finish8 Seater Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/ezio-dining-table/WDINEEZIOT8GLW",
+        "category": "Dining"
+      },
+      {
+        "name": "| 0 Bagna Dining Table - 6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/bagna-glass-and-steel-dining-table/WMDINEBAGNAS6",
+        "category": "Dining"
+      },
+      {
+        "name": "| 0 Salmore Dining Table - Antaliya BeigeAntaliya Beige% off",
+        "url": "https://www.wakefit.co/dining-furniture/salmor-stone-dining-table/WMDINESLMORS6AB",
+        "category": "Dining"
+      },
+      {
+        "name": "Flash Deal| 0 Kova Dining Chair - Robin Tan% off",
+        "url": "https://www.wakefit.co/dining-furniture/kova-dining-chair/WDINEKOVAC1RTBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Vanilla 4-seater Glass & Metal Dining SetSet of 4Set of",
+        "url": "https://www.wakefit.co/dining-furniture/vanilla-4-seater-metal-dining-set/WDINEVANLS4CBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0Cravla Dining Chair Set of 4Set of 4 Chairs4 Seater Table4 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/cravla-dining-chair-set-of-4/WDINECRVLAC1",
+        "category": "Dining"
+      },
+      {
+        "name": "0Snupin Dining Chair Set of 2Set of 2 Chairs6 Seater Table6 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/snupin-dining-chair-set-of-2/WDINESNUPINC1",
+        "category": "Dining"
+      },
+      {
+        "name": "0Basluna Dining Chair Set of 2Set of 2 Chairs6 Seater Table6 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/basluna-dining-chair-set-of-2/WDINEBSLNAC1",
+        "category": "Dining"
+      },
+      {
+        "name": "0Lumash Dining Chair Set of 2Set of 2 Chairs6 Seater Table6 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/lumash-dining-chair-set-of-2/WDINELUMSHC1",
+        "category": "Dining"
+      },
+      {
+        "name": "| 0 Venza Metal Dining Chair - Stone% off",
+        "url": "https://www.wakefit.co/dining-furniture/venza-dining-chair/WDINEVENZAC1STDB",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Rosemary 4 Seater Glass & Metal Dining SetSet of",
+        "url": "https://www.wakefit.co/dining-furniture/rosemary-4-seater-metal-dining-set/WDINERSMYS4CBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Romesco Dining Table - Versac AloudVersac Aloud% off",
+        "url": "https://www.wakefit.co/dining-furniture/romesco-glass-and-steel-dining-table/WMDINEROMSCS6VA",
+        "category": "Dining"
+      },
+      {
+        "name": "0Brunark Sheesham Extendable Dining Set with Lunith Chair6 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/brunark-dining-table-with-lunith-chair/WDINEBRNRKLUNTHS6",
+        "category": "Dining"
+      },
+      {
+        "name": "0Velini Sheesham 4 Seater Square Dining Set4 Seater Dining Set4 Seater TableSet of 2 Chairs% off",
+        "url": "https://www.wakefit.co/dining-furniture/velina-4-seater-dining-set/WDINEVELINIS4",
+        "category": "Dining"
+      },
+      {
+        "name": "0Olira Sheesham 6 Seater Dining Set6 Seater Dining Set6 Seater TableSet of 2 Chairs% off",
+        "url": "https://www.wakefit.co/dining-furniture/olira-6-seater-dining-set/WDINEOLIRAS6",
+        "category": "Dining"
+      },
+      {
+        "name": "0Cavira Sheesham Chair with Rattan Backrest Set of 2Set of 2 Chairs% off",
+        "url": "https://www.wakefit.co/dining-furniture/cavira-dining-chair/WDINECAVIRAC1",
+        "category": "Dining"
+      },
+      {
+        "name": "0Lunith Sheesham Chair Set of 2Set of 2 Chairs% off",
+        "url": "https://www.wakefit.co/dining-furniture/lunith-dining-chair/WDINELUNTHC1",
+        "category": "Dining"
+      },
+      {
+        "name": "| 0 Arvia Dining Chair with Arm - Robin Tan% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-with-arm/WDINEARVWAC1RTBK",
+        "category": "Dining"
+      },
+      {
+        "name": "Fanila 4-seater sheesham wood dining set with four chairs4 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/fanila-sheesham-wood-4-seater-dining-set/WDINEFANLS4COPCBSWNBR1",
+        "category": "Dining"
+      },
+      {
+        "name": "Minto 4 Seater sheesham wood Dining Set (With Cushion - Omega Pearl)4 Seater6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/minto-sheesham-wood-4-seater-dining-set/WDINEMINTS4COPCBSWR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Cobbler 4 seater solid wood dining set4 Seater6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/cobbler-solid-wood-4-seater-dining-set/WDINECBLRS4COPSBR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Arvia Dining Chair - Robin Beige% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-without-arm/WDINEARVWOAC1ROBBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0Brunark Sheesham 4 to 6 Seater Extendable Dining Table6 Seater Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/brunark-extendable-dining-table/WDINEBRNRKT6",
+        "category": "Dining"
+      },
+      {
+        "name": "0Karnel 4 Seater Dining Set4 Seater Dining Set4 Seater TableSet of 2 Chairs% off",
+        "url": "https://www.wakefit.co/dining-furniture/karnel-4-seater-dining-set/WDINEKARNLS4",
+        "category": "Dining"
+      },
+      {
+        "name": "Flash Deal| 0 Ziti 6-seater solid wood dining set6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/ziti-solid-wood-6-seater-dining-set/WDINEZITIS6COPGB",
+        "category": "Dining"
+      },
+      {
+        "name": "Simsim Sheesham Wood Dining Chair - with Cushion% off",
+        "url": "https://www.wakefit.co/dining-furniture/simsim-sheesham-wood-dining-chair/WDINESIMMC1COPNS",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Haydie Dining Chair - Charcoal GreySet of 1 Chair% off",
+        "url": "https://www.wakefit.co/dining-furniture/haydie-dining-chair/WDINEHAYDIEC1CGIW",
+        "category": "Dining"
+      },
+      {
+        "name": "0Paprikor 6 seater Dining Table - With Marble finish Top6 Seater Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/paprikor-6-seater-dining-table/WDINEPAPRIKT6IWBN",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Cobbler 6 Seater Dining Set6 Seater4 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/cobbler-6-seater-dining-set/WDINECBLRS6COPSBR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Ceviche 4-6 Seater Extendable Dining Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/ceviche-dining-table/WDINECEVICHET6GB",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Samphire Solid Wood 6-Seater Dining Table (Golden Brown)6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/samphire-solid-wood-6-seater-dinning-table/WDINESMPHRT6GB",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Kite 6 Seater Dining Table6 Seater4 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/kite-6-seater-dining-table/WDINEKITET6IW",
+        "category": "Dining"
+      },
+      {
+        "name": "Fanila 4 Seater sheesham wood Dining Set (With Cushion - Omega Pearl)4 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/fanila-sheesham-wood-4-seater-dining-set/WDINEFANLS4COPCBSWR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Vanilla 6 Seater Glass & Metal Dining SetSet of 6Set of",
+        "url": "https://www.wakefit.co/dining-furniture/vanilla-6-seater-glass-metal-dinning-set/WDINEVANLS6CBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0Costus Solid wood Dining chair with Cushion% off",
+        "url": "https://www.wakefit.co/dining-furniture/costus-solid-wood-cushion-dinning-chair/WDINECSTUSC1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Kite 4 Seater Dining Table4 Seater6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/kite-4-seater-dining-table/WDINEKITET4IW",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Arvia Dining Chair with Arm - Napoli Tan% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-with-arm/WDINEARVWAC1NTBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Kova Dining Chair - Robin Beige% off",
+        "url": "https://www.wakefit.co/dining-furniture/kova-dining-chair/WDINEKOVAC1ROBBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Venza Metal Dining Chair - Robin Beige% off",
+        "url": "https://www.wakefit.co/dining-furniture/venza-dining-chair/WDINEVENZAC1ROBDB",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Arvia Dining Chair - Mocha Brown% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-without-arm/WDINEARVWOAC1MBBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Arvia Dining Chair with Arm - Mocha Brown% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-with-arm/WDINEARVWAC1MBBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Kova Dining Chair - Mocha Brown% off",
+        "url": "https://www.wakefit.co/dining-furniture/kova-dining-chair/WDINEKOVAC1MBBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Kova Dining Chair - Napoli Tan% off",
+        "url": "https://www.wakefit.co/dining-furniture/kova-dining-chair/WDINEKOVAC1NTBK",
+        "category": "Dining"
+      },
+      {
+        "name": "Simsim Sheesham Wood Dining Chair - Without Cushion% off",
+        "url": "https://www.wakefit.co/dining-furniture/simsim-sheesham-wood-dining-chair/WDINESIMMC1NS",
+        "category": "Dining"
+      },
+      {
+        "name": "Minto 4 seater Sheesham Dining set with Bench4 Seater6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/minto-4-seater-with-bench/WDINEMINTS4COPCBSWWBR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Haydie Dining Chair - Mocha BrownSet of 1 Chair% off",
+        "url": "https://www.wakefit.co/dining-furniture/haydie-dining-chair/WDINEHAYDIEC1MBIW",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Kumen 4 seater teak wood dining table4 Seater Table6 Seater Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/kumen-teak-wood-4-seater-dining-table/WDINEKUMENT4AT",
+        "category": "Dining"
+      },
+      {
+        "name": "Minto 6 seater Sheesham Dining set with Bench6 Seater4 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/minto-6-seater-with-bench/WDINEMINTS6COPCBSWWBR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Kumen 6 seater teak wood dining table6 Seater Table4 Seater Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/kumen-teak-wood-6-seater-dining-table/WDINEKUMENT6AT",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Arvia Dining Chair with Arm - Charcoal Grey% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-with-arm/WDINEARVWAC1CGBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Arvia Dining Chair - Charcoal Grey% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-without-arm/WDINEARVWOAC1CGBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Venza Metal Dining Chair - Mocha Brown% off",
+        "url": "https://www.wakefit.co/dining-furniture/venza-dining-chair/WDINEVENZAC1MBDB",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Haydie Dining Chair - Napoli TanSet of 1 Chair% off",
+        "url": "https://www.wakefit.co/dining-furniture/haydie-dining-chair/WDINEHAYDIEC1NTIW",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Kova Dining Chair - Charcoal Grey% off",
+        "url": "https://www.wakefit.co/dining-furniture/kova-dining-chair/WDINEKOVAC1CGBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Haydie Dining Chair - Robin TanSet of 1 Chair% off",
+        "url": "https://www.wakefit.co/dining-furniture/haydie-dining-chair/WDINEHAYDIEC1RTIW",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Arvia Dining Chair - Napoli Tan% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-without-arm/WDINEARVWOAC1NTBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Arvia Dining Chair with Arm - Robin Beige% off",
+        "url": "https://www.wakefit.co/dining-furniture/arvia-dining-chair-with-arm/WDINEARVWAC1ROBBK",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Zafran 8 seater Dining Table - With Marble finish top8 Seater Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/zafran-8-seater-dining-table/WDINEZAFRANT8HA",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Nuvetta Sheesham Wood 6 Seater Dining Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/nuvetta-dining-table/WDINENUVETAT6",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Nuvetta Sheesham Wood Dining ChairSet of 2 Chairs6 Seater Table with Chair% off",
+        "url": "https://www.wakefit.co/dining-furniture/nuvetta-dining-chair/WDINENUVETAC2NS",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Soomari Sheesham Wood 6 Seater Dining Table% off",
+        "url": "https://www.wakefit.co/dining-furniture/soomari-dining-table/WDINESOMARIT6",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Soomari Sheesham Wood Dining Chair% off",
+        "url": "https://www.wakefit.co/dining-furniture/soomari-dining-chair/WDINESOMARIC2",
+        "category": "Dining"
+      },
+      {
+        "name": "0Olira Sheesham Dining Chair Set of 2Set of 2 Chairs6 Seater Table6 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/olira-dining-chair/WDINEOLIRAC1",
+        "category": "Dining"
+      },
+      {
+        "name": "0Velini Sheesham Dining ChairSet of 2 Chairs4 Seater Table4 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/velini-dining-chair/WDINEVELINIC1",
+        "category": "Dining"
+      },
+      {
+        "name": "0Brunark Sheesham Extendable Dining Set with Cavira Chair6 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/brunark-dining-table-with-cavira-chair/WDINEBRNRKCAVIRAS6",
+        "category": "Dining"
+      },
+      {
+        "name": "0Druzza Dining Chair Set of 2Set of 2 Chairs% off",
+        "url": "https://www.wakefit.co/dining-furniture/druzza-dining-chair-set-of-2/WDINEDRUZAC1",
+        "category": "Dining"
+      },
+      {
+        "name": "0Karnel Dining Chair Set of 2Set of 2 Chairs4 Seater Table4 Seater Dining Set% off",
+        "url": "https://www.wakefit.co/dining-furniture/karnel-dining-chair-set-of-2/WDINEKARNLC1",
+        "category": "Dining"
+      },
+      {
+        "name": "Simsim 6 seater dining set with Bench6 Seater4 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/simsim-6-seater-with-bench/WDINESIMGS6COPNSWBR1",
+        "category": "Dining"
+      },
+      {
+        "name": "Simsim 4 seater dining set with bench4 Seater6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/simsim-4-seater-with-bench/WDINESIMGS4COPNSWBR1",
+        "category": "Dining"
+      },
+      {
+        "name": "Kopra 6 seater Dining Set (with cushion omega pearl)6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/solid-wood-dining-set-kopra/WDINEKOPRS6COPCBSWR2",
+        "category": "Dining"
+      },
+      {
+        "name": "Kopra 4 seater dining set with chairs% off",
+        "url": "https://www.wakefit.co/dining-furniture/kopra-4-seater-with-chairs/WDINEKOPRS4COPCBSWR1NB",
+        "category": "Dining"
+      },
+      {
+        "name": "Zufa 6-seater solid wood dining set6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/zufa-solid-wood-6-seater-dining-set/WDINEZUFAS6COPMGR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Capers 4 Seater Dining Set Rectangle4 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/capers-rectangle-4-seater-dining-set/WDINECAPRS4COPGBRTR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Capers 6 Seater Dining Set6 Seater% off",
+        "url": "https://www.wakefit.co/dining-furniture/capers-6-seater-dinning-set/WDINECAPRS6COPGBR1",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Mochi Metal Dining Chair I Set of 2 I Leatherette CappuccinoGrey% off",
+        "url": "https://www.wakefit.co/dining-furniture/mochi-dining-chair/WMDINEMOCHIC2LCU",
+        "category": "Dining"
+      },
+      {
+        "name": "0 Mochi 6 Seater Dining Set - Omani Grey & Leth GreyOmani Grey% off",
+        "url": "https://www.wakefit.co/dining-furniture/mochi-6-seater-dining-set/WMDINEMOCHIS6OMGLGR",
+        "category": "Dining"
+      },
+      {
+        "name": "4 Seater Dining Table Sets",
+        "url": "https://www.wakefit.co/dining-furniture/4-seater-dining-table",
+        "category": "Dining"
+      },
+      {
+        "name": "6 Seater Dining Table Sets",
+        "url": "https://www.wakefit.co/dining-furniture/6-seater-dining-table",
+        "category": "Dining"
+      },
+      {
+        "name": "Dining Table",
+        "url": "https://www.wakefit.co/dining-furniture/dining-table",
+        "category": "Dining"
+      },
+      {
+        "name": "Dining Chair",
+        "url": "https://www.wakefit.co/dining-furniture/dining-chair",
+        "category": "Dining"
+      },
+      {
+        "name": "Luxury Dining",
+        "url": "https://www.wakefit.co/dining-furniture/luxury-dining",
+        "category": "Dining"
+      },
+      {
+        "name": "Wakefit Kopra 6 seater Sheesham Dining Set (with cushion omega pearl)",
+        "url": "https://www.wakefit.co/dining-furniture/kopra-solid-wood-6-seater-dining-set/WDINEKOPRS6COPCBSWR1",
+        "category": "Dining"
+      },
+      {
+        "name": "Wakefit Minto 4 Seater sheesham wood Dining Set (With Cushion - Omega Pearl)",
+        "url": "https://www.wakefit.co/dining-furniture/minto-sheesham-wood-4-seater-dining-set/WDINEMINTS4COPCBSW",
+        "category": "Dining"
+      },
+      {
+        "name": "| 0 Notiq Electric Height Adjustable Study TableColumbian WalnutFrosty White% off",
+        "url": "https://www.wakefit.co/study-tables/notiq-study-table/WSTNOTIQCW",
+        "category": "Study"
+      },
+      {
+        "name": "Sage Study TableColumbian Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/sage-study-table/WSTSAGER1",
+        "category": "Study"
+      },
+      {
+        "name": "| 0 Galilevo Study Table Sheesham WoodBrown with Honey Finish% off",
+        "url": "https://www.wakefit.co/study-tables/horsley-computer-table-with-keyboard-tray/WSSTGALILEVOHF",
+        "category": "Study"
+      },
+      {
+        "name": "Athena Study TableColumbian Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/athena-study-table/WSTATHENACWR1",
+        "category": "Study"
+      },
+      {
+        "name": "| 0 Aristolite Study Table Sheesham WoodBrown with Honey Finish% off",
+        "url": "https://www.wakefit.co/study-tables/brason-study-table-with-4-drawers/WSSTARISTOLITEHF",
+        "category": "Study"
+      },
+      {
+        "name": "| 0 Study Table Elarox Columbian WalnutColumbian WalnutFrosty White% off",
+        "url": "https://www.wakefit.co/study-tables/elarox-multi-purpose-study-table/WSTELAROXCW",
+        "category": "Study"
+      },
+      {
+        "name": "0 Parallax Study Table% off",
+        "url": "https://www.wakefit.co/study-tables/parallax-study-table/WSTPARALLAX",
+        "category": "Study"
+      },
+      {
+        "name": "| 0 Curion Study Table Sheesham WoodBrown with Honey Finish% off",
+        "url": "https://www.wakefit.co/study-tables/nettle-study-table-cum-shelf/WSSTCURIONHF",
+        "category": "Study"
+      },
+      {
+        "name": "Sage Study Table - Pumic GreyPumic GreyNapa Oak% off",
+        "url": "https://www.wakefit.co/study-tables/sage-study-table/WSTSAGEPG",
+        "category": "Study"
+      },
+      {
+        "name": "Camus Study Table- Wyoming MapleWyoming MapleFrosty White% off",
+        "url": "https://www.wakefit.co/study-tables/camus-study-table/WSTCAMUSWM",
+        "category": "Study"
+      },
+      {
+        "name": "0 Newtonic Study Table Sheesham WoodBrown with Honey Finish% off",
+        "url": "https://www.wakefit.co/study-tables/alkin-study-table/WSSTNEWTONICHF",
+        "category": "Study"
+      },
+      {
+        "name": "| 0 Study Table Studra Columbian WalnutColumbian WalnutFrosty White% off",
+        "url": "https://www.wakefit.co/study-tables/studra-corner-study-table/WSTSTUDRACW",
+        "category": "Study"
+      },
+      {
+        "name": "0Nuvetta Sheesham Study Table% off",
+        "url": "https://www.wakefit.co/bedside-tables/nuvetta-bedside-table/WSSTNUVETTA",
+        "category": "Study"
+      },
+      {
+        "name": "Athena Study Table - Pumic GreyPumic GreyNapa Oak% off",
+        "url": "https://www.wakefit.co/study-tables/athena-study-table/WSTATHENAPG",
+        "category": "Study"
+      },
+      {
+        "name": "Edwin Study Table% off",
+        "url": "https://www.wakefit.co/study-tables/engineered-wood-study-table-edwin/WSTEDWIN",
+        "category": "Study"
+      },
+      {
+        "name": "Fuller Study Table% off",
+        "url": "https://www.wakefit.co/study-tables/fuller-computer-study-table/WSTFULLER",
+        "category": "Study"
+      },
+      {
+        "name": "Nayena Study TableColumbian WalnutPumic Grey% off",
+        "url": "https://www.wakefit.co/study-tables/nayena-computer-study-table/WSTNAYENA",
+        "category": "Study"
+      },
+      {
+        "name": "| 0Klasiko teak wood Study Table - Ambroisa TeakAmbrosia TeakDark Burma Teak% off",
+        "url": "https://www.wakefit.co/study-tables/klasiko-study-table/WSSTKLASIKOAT",
+        "category": "Study"
+      },
+      {
+        "name": "| 0 Notiq Electric Height Adjustable Study TableFrosty WhiteColumbian Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/notiq-study-table/WSTNOTIQFW",
+        "category": "Study"
+      },
+      {
+        "name": "Athena Study Table - Napa OakNapa OakPumic Grey% off",
+        "url": "https://www.wakefit.co/study-tables/athena-study-table/WSTATHENANO",
+        "category": "Study"
+      },
+      {
+        "name": "Cursa Study TableWengePumic Grey% off",
+        "url": "https://www.wakefit.co/study-tables/study-table-cursa/WSTCURSA",
+        "category": "Study"
+      },
+      {
+        "name": "| 0 Kumen teak wood Study Table with storageAmbrosia Teak% off",
+        "url": "https://www.wakefit.co/study-tables/kumen-teak-wood-study-table-with-storage/WSSTSKUMENAT",
+        "category": "Study"
+      },
+      {
+        "name": "Nash Study TableColumbian Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/nash-computer-study-table/WSTNASH",
+        "category": "Study"
+      },
+      {
+        "name": "Apollo study table% off",
+        "url": "https://www.wakefit.co/study-tables/apollo-study-table/WSTAPOLLOCWR1",
+        "category": "Study"
+      },
+      {
+        "name": "Cabrera Study Table - Urban Teak and WhiteUrban Teak and WhitePumic Grey% off",
+        "url": "https://www.wakefit.co/study-tables/cabrera-study-table/WSTCABRERA",
+        "category": "Study"
+      },
+      {
+        "name": "Nayena Study Table - Pumic GreyPumic GreyColumbian Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/nayena-computer-study-table/WSTNAYENAPG",
+        "category": "Study"
+      },
+      {
+        "name": "Alcor Study Table% off",
+        "url": "https://www.wakefit.co/study-tables/study-table-alcor/WSTALCOR",
+        "category": "Study"
+      },
+      {
+        "name": "Neptune Study TableDark Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/neptune-study-table/WSTNEPTUNER1",
+        "category": "Study"
+      },
+      {
+        "name": "0 Kumen teak wood Study TableAmbrosia Teak% off",
+        "url": "https://www.wakefit.co/study-tables/kumen-teak-wood-study-table/WSSTKUMENAT",
+        "category": "Study"
+      },
+      {
+        "name": "Cabrera Study Table - Pumic GreyPumic GreyUrban Teak and White% off",
+        "url": "https://www.wakefit.co/study-tables/cabrera-study-table/WSTCABRERAPG",
+        "category": "Study"
+      },
+      {
+        "name": "Camus Study Table- Frosty WhiteFrosty WhiteWyoming Maple% off",
+        "url": "https://www.wakefit.co/study-tables/camus-study-table/WSTCAMUSFW",
+        "category": "Study"
+      },
+      {
+        "name": "Shea Study TablePumic GreyColumbian Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/shea-study-table/WSTSHEAPG",
+        "category": "Study"
+      },
+      {
+        "name": "Shea Study TableColumbian WalnutPumic Grey% off",
+        "url": "https://www.wakefit.co/study-tables/shea-study-table/WSTSHEA",
+        "category": "Study"
+      },
+      {
+        "name": "Isler Study Table% off",
+        "url": "https://www.wakefit.co/study-tables/isler-computer-study-table/WSTISLER",
+        "category": "Study"
+      },
+      {
+        "name": "Aaron Study Table% off",
+        "url": "https://www.wakefit.co/study-tables/aaron-computer-study-table/WSTAARON",
+        "category": "Study"
+      },
+      {
+        "name": "Sage Study Table - Napa OakNapa OakPumic Grey% off",
+        "url": "https://www.wakefit.co/study-tables/sage-study-table/WSTSAGENO",
+        "category": "Study"
+      },
+      {
+        "name": "0 Couper Study Table (18mm Frosty White)Frosty WhiteUrban TeakNapa Oak% off",
+        "url": "https://www.wakefit.co/study-tables/couper-wall-mount-study-table/WSTCOUPERFW",
+        "category": "Study"
+      },
+      {
+        "name": "Cursa Study Table - Pumic GreyPumic GreyWenge% off",
+        "url": "https://www.wakefit.co/study-tables/study-table-cursa/WSTCURSAPG",
+        "category": "Study"
+      },
+      {
+        "name": "0 Couper Study Table (15mm Napa Oak)Napa OakFrosty WhiteUrban Teak% off",
+        "url": "https://www.wakefit.co/study-tables/couper-wall-mount-study-table/WSTCOUPERNO",
+        "category": "Study"
+      },
+      {
+        "name": "0 Study Table Elarox Frosty WhiteFrosty WhiteColumbian Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/elarox-multi-purpose-study-table/WSTELAROXFW",
+        "category": "Study"
+      },
+      {
+        "name": "0 Couper Study Table (18mm Urban Teak)Urban TeakFrosty WhiteNapa Oak% off",
+        "url": "https://www.wakefit.co/study-tables/couper-wall-mount-study-table/WSTCOUPERUT",
+        "category": "Study"
+      },
+      {
+        "name": "0 Study Table Studra Frosty WhiteFrosty WhiteColumbian Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/studra-corner-study-table/WSTSTUDRAFW",
+        "category": "Study"
+      },
+      {
+        "name": "0 Melvin Solid Wood Study TableIrish Walnut% off",
+        "url": "https://www.wakefit.co/study-tables/melvin-study-table/WSSTMLVINIW",
+        "category": "Study"
+      },
+      {
+        "name": "| 0Klasiko teak wood Study Table - Dark Burma TeakDark Burma TeakAmbrosia Teak% off",
+        "url": "https://www.wakefit.co/study-tables/klasiko-study-table/WSSTKLASIKODBT",
+        "category": "Study"
+      },
+      {
+        "name": "0Paw Kids Study Table | (42x18 inch) | (Moldau Acacia) | Stylish Wooden Study Desk for Kids Room% off",
+        "url": "https://www.wakefit.co/study-tables/paw-kids-study-table/WKSTPAWW",
+        "category": "Study"
+      },
+      {
+        "name": "0Wiggle Kids Study Table | (36x22 inch) | (Frosty White) | Space-Saving Wooden Study Desk for Kids% off",
+        "url": "https://www.wakefit.co/study-tables/wiggle-kids-study-table/WKSTWGLE",
+        "category": "Study"
+      },
+      {
+        "name": "0 Stackup Kids Study Table% off",
+        "url": "https://www.wakefit.co/kids-furniture/stackup-kids-study-table/WKSTSTACKL",
+        "category": "Study"
+      },
+      {
+        "name": "0 Marco Kids Study Table - GreenGreenPinkBlue% off",
+        "url": "https://www.wakefit.co/kids-furniture/marco-kids-study-table/WKSTMARCOG",
+        "category": "Study"
+      },
+      {
+        "name": "0 Marco Kids Study Table - PinkPinkGreenBlue% off",
+        "url": "https://www.wakefit.co/kids-furniture/marco-kids-study-table/WKSTMARCOP",
+        "category": "Study"
+      },
+      {
+        "name": "0 Marco Kids Study Table - BlueBlueGreenPink% off",
+        "url": "https://www.wakefit.co/kids-furniture/marco-kids-study-table/WKSTMARCOB",
+        "category": "Study"
+      },
+      {
+        "name": "0 Junglio Sunshine Kids Study Table% off",
+        "url": "https://www.wakefit.co/kids-furniture/sunshine-kids-study-table/WKSTJUNGLIO",
+        "category": "Study"
+      },
+      {
+        "name": "0 Wispy Study Table I Marble Finish I Vitrified Tile Top I Breccia Natural% off",
+        "url": "https://www.wakefit.co/study-tables/wispy-study-table/WSTWISPYBRN",
+        "category": "Study"
+      },
+      {
+        "name": "Solid Wood Study Table",
+        "url": "https://www.wakefit.co/study-tables/solid-wood-study-tables",
+        "category": "Study"
+      },
+      {
+        "name": "Metal Study Table",
+        "url": "https://www.wakefit.co/study-tables/wiz-study-table/WSTWIZNO",
+        "category": "Study"
+      },
+      {
+        "name": "Wakefit Nayena Study Table - Egg White",
+        "url": "https://www.wakefit.co/study-tables/nayena-computer-study-table/WSTNAYENAEW",
+        "category": "Study"
+      },
+      {
+        "name": "Curio Kids Study Table | (36x24 inch) | (Moldau Acacia) | Spacious Wooden Study Desk for Kids",
+        "url": "https://www.wakefit.co/study-tables/curio-kids-study-table/WKSTCURO",
+        "category": "Study"
+      },
+      {
+        "name": "0 Zim Baby Bedding Set ( Brown )BrownGreenYellowPeach% off",
+        "url": "https://www.wakefit.co/bedding/baby-bedding-set/WBBSSB",
+        "category": "Bedding |"
+      },
+      {
+        "name": "premiumDuvet Cover | Cover for Comforter, Razzai and Duvet with 1 Pillow CoverSingle 90\"x60\"% off",
+        "url": "https://www.wakefit.co/bedding/duvet-covers/WFDCGRS",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | Autumn SunsetStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVAUTUMND",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | CicelyStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVCICELYD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Double Siliconised Microfibre Reversible Cotton Comforter (Florenza)DoubleSingle% off",
+        "url": "https://www.wakefit.co/bedding/cotton-comforter/WSMRCFLORENZAD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | BookeLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKBKEHD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | MicheleLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKMCHLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | MazeLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKMAZED",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Single Siliconised Microfibre Reversible Cotton Comforter (Florenza)SingleDouble% off",
+        "url": "https://www.wakefit.co/bedding/cotton-comforter/WSMRCFLORENZAS",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | Eiffel TowerLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKEIFLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Single Siliconised Microfibre Reversible Cotton Comforter (Seher)SingleDouble% off",
+        "url": "https://www.wakefit.co/bedding/cotton-comforter/WSMRCSEHERS",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover, Standard (18 Inch X 27 Inch), Peacock Blue, Set Of 2Standard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVPBLUED",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Silver Blue Satin Pillowcover - Set of 2Standard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVSASBD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | MazeStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVMAZED",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | MarioLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKMRIOD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | KarolLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKKARLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | Wood RoseStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVWROSED",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | BubblesLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKBUBLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Flat Bedsheet Bubbles Double (100x85 inch)DoubleSingleKing% off",
+        "url": "https://www.wakefit.co/bedding/flat-bedsheet/WFB10085BUBBLESFL",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | KarolStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKARLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | Ross BlueLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKRSBLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | FlorenzaLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKFLORD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Checkers 100% Cotton 200 TC Flat Bedsheet With 2 Pillow Cover (100x85 inch)DoubleSingleKing% off",
+        "url": "https://www.wakefit.co/bedding/flat-bedsheet/WFB10085CHEKKERSFL",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | BubblesLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKBUBL4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | MazeStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVMAZE4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | Serene FloraStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVFLORAD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | KarolLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKKARL4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | MazeLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKMAZE4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | BekkyLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKBEKYD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | ChekkersLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKCHKRD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | MicheleLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKMCHL4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | Estate BlueStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVESTBD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | NicoleLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKNICLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | BuffeyLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKBUFYD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | PaulaLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKPULAD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | Color PlayLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKCLPLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | MicheleStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVMCHLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Gold Satin Pillowcover - Set of 2Standard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVSAGDD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | ChekkersLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKCHKR4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | NauticalStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVNAUTICALD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | BekkyLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKBEKY4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | ParisaLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKPRSA4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | BubblesStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVBUBLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | ChekkersStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVCHKRD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | Color PlayLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKCLPL4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | MarioStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVMRIOD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | Ross BrownStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVRSBRD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | MarioLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKMRIO4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | BekkyStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVBEKYD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | BookeLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKBKEH4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | PaulaStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVPULAD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | Ross BlueLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKRSBL4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | NicloeStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVNICLD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | NicoleLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKNICL4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | FlorenzaStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVFLORD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | FlorenzaLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKFLOR4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | PaulaLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKPULA4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover, Standard (18 Inch X 27 Inch), Lavender Herb, Set Of 2Standard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVLHERBD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | BuffeyStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVBUFYD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | ChintzStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVCHTZD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | King Size 36x19 Inch | Set Of TC | BuffeyLargeStandard% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVKBUFY4",
+        "category": "Bedding |"
+      },
+      {
+        "name": "100% Cotton Pillow Cover | Standard Size 27x18 Inch | Set Of TC | BookeStandardLarge% off",
+        "url": "https://www.wakefit.co/bedding/pillow-covers/WPCVBKEHD",
+        "category": "Bedding |"
+      },
+      {
+        "name": "200 TC Solid Fitted Bedsheet With Pillow Cover% off",
+        "url": "https://www.wakefit.co/bedding/fitted-bedsheet/WFB7230PKRT",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Digital Print Fitted Bedsheet With Pillow Cover% off",
+        "url": "https://www.wakefit.co/bedding/fitted-bedsheet/WFB7230BIRKO",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Digital Print Fitted Bedsheet With Pillow Cover% off",
+        "url": "https://www.wakefit.co/bedding/fitted-bedsheet/WFB7230MEENAKSHI",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Digital Print Fitted Bedsheet With Pillow Cover% off",
+        "url": "https://www.wakefit.co/bedding/fitted-bedsheet/WFB7230SLASH",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Mosquito Net for Baby% off",
+        "url": "https://www.wakefit.co/bedding/mosquito-net/WMQNSPSM",
+        "category": "Bedding |"
+      },
+      {
+        "name": "Cups And Mugs",
+        "url": "https://www.wakefit.co/dinnerware/cups-and-saucers",
+        "category": "Kitchen"
+      },
+      {
+        "name": "Ada Hanging Pendant% off",
+        "url": "https://www.wakefit.co/lights-and-lamps/pendants-ada-pendant-light/WHPDTAADACL",
+        "category": "Decor"
+      },
+      {
+        "name": "0 Apple Blossom planter% off",
+        "url": "https://www.wakefit.co/decor/apple-blossom-planters/WPLTRAPLEWHLG",
+        "category": "Decor"
+      },
+      {
+        "name": "0 Giraffe Table DecorGrey Blue% off",
+        "url": "https://www.wakefit.co/decor/giraffe-table-decor/WTDECGIRFGB",
+        "category": "Decor"
+      },
+      {
+        "name": "0Wall Mirror | Rectangular | 16x18 Inch | Golden Metal Frame | Elegant & Sleek Design | GolnarGold% off",
+        "url": "https://www.wakefit.co/decor/golnar-gold-16-wall-mirror/WWMIRGLNRGD16",
+        "category": "Decor"
+      },
+      {
+        "name": "0Wall Mirror | Rectangular | 14x36 Inch | Black Metal Frame | Elegant & Sleek Design | NamirBlack% off",
+        "url": "https://www.wakefit.co/decor/namir-black-wall-mirror/WWMIRNAMRBK14",
+        "category": "Decor"
+      },
+      {
+        "name": "0Eternal Embrace Black Picture Frame Set of 1 (11X14) InchBlackRed% off",
+        "url": "https://www.wakefit.co/wall-decor/eternal-embrace-black-picture-frame/WPTGSELECPFBL11S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Inspiration Quartet Picture Black Frame Set of 4 (8.5X8.5) InchBlackRed% off",
+        "url": "https://www.wakefit.co/wall-decor/inspiration-quartet-picture-black-frame/WPTGSIPQTPFBL85S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Venetian Reverie Black Picture Frame Set of 1 (27.3X18) InchBlackRed% off",
+        "url": "https://www.wakefit.co/wall-decor/venetian-reverie-black-picture-frame/WPTGSVTRIPFBL27S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Eternal Embrace Vinyl Set of 1 (11X14) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/eternal-embrace-vinyl--set/WPTGSELECVF11S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Inspiration Quartet Vinyl Set of 4 (8.5X8.5) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/inspiration-quartet-vinyl--set/WPTGSIPQTVF85S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Venetian Reverie Vinyl Set of 1 (27.3X18) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/venetian-reverie-vinyl--set/WPTGSVTRIVF27S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Carpe Diem Quote Vinyl Set of 4 (11X11) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/carpe-diem-quote-vinyl--set/WPTGSCDQSVF11S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Gratitude Journal Quotes Vinyl Set of 4 (11X11) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/gratitude-journal-quotes-vinyl--set/WPTGSGJQSVF11S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Winner Mindset Vinyl Set of 4 (8.7X8.7) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/winner-mindset-vinyl/WPTGSWIMDVF87S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Nature's Whisper Vinyl Set of 4 (11X14) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/nature's-whisper-vinyl/WPTGSNTWPVF11S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Tropical Delight Vinyl Set of 3 (9X11) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/tropical-delight-vinyl/WPTGSTPDEVF09S3",
+        "category": "Decor"
+      },
+      {
+        "name": "0Botanical Touch Vinyl Set of 4 (11X14) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/botanical-touch-vinyl/WPTGSBOTCVF11S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Natural harmony Vinyl Set of 3 (9X11) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/natural-harmony-vinyl/WPTGSNAHYVF09S3",
+        "category": "Decor"
+      },
+      {
+        "name": "0Eternal Echoes Vinyl Set of 1 (10X10) InchRed N% off",
+        "url": "https://www.wakefit.co/wall-decor/eternal-echoes-vinyl/WPTGSETESVF10S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Gallop of Freedom Red Picture Frame Set of 1 (18X12) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/gallop-of-freedom-red-picture-frame/WPTGSGLFDPFRD18S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Autumn Serenade Red Picture Frame Set of 1 (18X18) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/autumn-serenade-red-picture-frame/WPTGSATSDPFRD18S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Eternal Embrace Red Picture Frame Set of 1 (11X14) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/eternal-embrace-red-picture-frame/WPTGSELECPFRD11S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Inspiration Quartet Red Picture Frame Set of 4 (8.5X8.5) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/inspiration-quartet-red-picture-frame/WPTGSIPQTPFRD85S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Venetian Reverie Red Picture Frame Set of 1 (27.3X18) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/venetian-reverie-red-picture-frame/WPTGSVTRIPFRD27S1",
+        "category": "Decor"
+      },
+      {
+        "name": "0Carpe Diem Quote Red Picture Frame Set of 4 (11X11) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/carpe-diem-quote-red-picture-frame/WPTGSCDQSPFRD11S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Gratitude Journal Quotes Red Picture Frame Set of 4 (11X11) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/gratitude-journal-quotes-red-picture-frame/WPTGSGJQSPFRD11S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Winner Mindset Red Picture Frame Set of 4 (8.7X8.7) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/winner-mindset-red-picture-frame/WPTGSWIMDPFRD87S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Nature's Whisper Red Picture Frame Set of 4 (11X14) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/nature's-whisper-red-picture-frame/WPTGSNTWPPFRD11S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Tropical Delight Red Picture Frame Set of 3 (9X11) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/tropical-delight-red-picture-frame/WPTGSTPDEPFRD09S3",
+        "category": "Decor"
+      },
+      {
+        "name": "0Botanical Touch Red Picture Frame Set of 4 (11X14) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/botanical-touch-red-picture-frame/WPTGSBOTCPFRD11S4",
+        "category": "Decor"
+      },
+      {
+        "name": "0Natural harmony Red Picture Frame Set of 3 (9X11) InchRedBlack% off",
+        "url": "https://www.wakefit.co/wall-decor/natural-harmony-red-picture-frame/WPTGSNAHYPFRD09S3",
+        "category": "Decor"
+      },
+      {
+        "name": "Plants and Planters",
+        "url": "https://www.wakefit.co/garden-decor/pots-and-planters",
+        "category": "Decor"
+      },
+      {
+        "name": "Artificial Plants & Flowers",
+        "url": "https://www.wakefit.co/floor-furnishing/artificial-plant",
+        "category": "Decor"
+      },
+      {
+        "name": "Dino Kids Bath Towel% off",
+        "url": "https://www.wakefit.co/kids-furniture/dino-kids-bath-towel/WKIDTWLDINO",
+        "category": "Kids"
+      },
+      {
+        "name": "Fast MovingHolidays Kids Bath Towel% off",
+        "url": "https://www.wakefit.co/kids-furniture/holidays-kids-bath-towel/WKIDTWLHOLIDAY",
+        "category": "Kids"
+      },
+      {
+        "name": "Stella Kids Bath Towel% off",
+        "url": "https://www.wakefit.co/kids-furniture/stella-kids-bath-towel/WKIDTWLSTELLA",
+        "category": "Kids"
+      },
+      {
+        "name": "Bearhug Kids Bath Towel% off",
+        "url": "https://www.wakefit.co/kids-furniture/bearhug-kids-bath-towel/WKIDTWLBEARHUG",
+        "category": "Kids"
+      },
+      {
+        "name": "Baby Wrap Muslin Cloth -Elepha ( Small ,Set of one )ElephaMimi% off",
+        "url": "https://www.wakefit.co/kids-furniture/baby-wrap/WBWMCELPHSS1",
+        "category": "Kids"
+      },
+      {
+        "name": "Baby Wrap Muslin Cloth-Mimi ( Small ,Set of one )MimiElepha% off",
+        "url": "https://www.wakefit.co/kids-furniture/baby-wrap/WBWMCMIMISS1",
+        "category": "Kids"
+      },
+      {
+        "name": "Baby Wrap Muslin Cloth -Elepha & Mimi ( Small , Set of two )Elepha & MimiElephaMimi% off",
+        "url": "https://www.wakefit.co/kids-furniture/baby-wrap/WBWMCELMISS2",
+        "category": "Kids"
+      },
+      {
+        "name": "0 Flat Bedsheet DODDLE (90 x 60)% off",
+        "url": "https://www.wakefit.co/bedding/kids-bedsheet/WKFBSDOODLES",
+        "category": "Kids"
+      },
+      {
+        "name": "0 Flat Bedsheet STARY (90 x 60)single% off",
+        "url": "https://www.wakefit.co/bedding/kids-bedsheet/WKFBSSTARRYS",
+        "category": "Kids"
+      },
+      {
+        "name": "0 Flat Bedsheet DREAMO (100 x 90)% off",
+        "url": "https://www.wakefit.co/bedding/kids-bedsheet/WKFBSDREAMOD",
+        "category": "Kids"
+      },
+      {
+        "name": "Latex Plus Premium Mattress",
+        "url": "https://www.wakefit.co/plus-mattress/latex-plus-mattress/WLPM72366",
+        "category": "Plus Series"
+      },
+      {
+        "name": "Ortho Plus Premium Mattress",
+        "url": "https://www.wakefit.co/plus-mattress/ortho-plus-mattress/WOPM72366",
+        "category": "Plus Series"
+      },
+      {
+        "name": "Duo Plus Premium Mattress",
+        "url": "https://www.wakefit.co/plus-mattress/duo-plus-mattress/WDPM72366",
+        "category": "Plus Series"
+      },
+      {
+        "name": "Ortho Plus ActiveCool Premium Mattress",
+        "url": "https://www.wakefit.co/plus-mattress/ortho-plus-active-cool-mattress/WOPCTM72366R1",
+        "category": "Plus Series"
+      },
+      {
+        "name": "IcyBreeze ActiveCool HR Foam Premium Mattress",
+        "url": "https://www.wakefit.co/mattress/icybreeze-activecool-mattress/WWACM84725",
+        "category": "Plus Series"
+      },
+      {
+        "name": "Elevate Plus Active Cool Spring Mattress",
+        "url": "https://www.wakefit.co/plus-mattress/xpertgrid-plus-mattress/WFXGPLU72366",
+        "category": "Plus Series"
+      },
+      {
+        "name": "Diwan Size Plus Mattress",
+        "url": "https://www.wakefit.co/plus-mattress/ortho-plus-mattress/WOPM72486",
+        "category": "Plus Series"
+      },
+      {
+        "name": "Queen Size Plus Mattress",
+        "url": "https://www.wakefit.co/plus-mattress/ortho-plus-mattress/WOPM78606",
+        "category": "Plus Series"
+      },
+      {
+        "name": "King Size Plus Mattress",
+        "url": "https://www.wakefit.co/plus-mattress/ortho-plus-mattress/WOPM78726",
+        "category": "Plus Series"
+      },
+      {
+        "name": "XpertGrid Plus Mattress | Adaptive Cooling Grid | 15 Years Warranty",
+        "url": "https://www.wakefit.co/plus-mattress/xpertgrid-plus-mattress/WFXGPLU72306",
+        "category": "Plus Series"
+      },
+      {
+        "name": "Wakefit Optima Plus ActiveCool",
+        "url": "https://www.wakefit.co/plus-mattress/ortho-spring-mattress-elevate-plus/WEPCTM72366",
+        "category": "Plus Series"
+      },
+      {
+        "name": "mattress store",
+        "url": "https://www.wakefit.co/plus-mattress/ortho-plus-mattress/mattress-shop-near-me",
+        "category": "Plus Series"
+      },
+      {
+        "name": "Flat Bedsheet60+ Options",
+        "url": "https://www.wakefit.co/bedding/flat-bedsheet/WFLBSEIFFELD",
+        "category": "View all categories"
+      },
+      {
+        "name": "Fitted Bedsheet540+ Options",
+        "url": "https://www.wakefit.co/bedding/fitted-bedsheet/WFB7872MAZE",
+        "category": "View all categories"
+      },
+      {
+        "name": "Mattress Protector53+ Options",
+        "url": "https://www.wakefit.co/bedding/mattress-protector/WMPGREY7272",
+        "category": "View all categories"
+      },
+      {
+        "name": "Blanket4+ Options",
+        "url": "https://www.wakefit.co/bedding/sherpa-blankets",
+        "category": "View all categories"
+      },
+      {
+        "name": "Dohar6+ Options",
+        "url": "https://www.wakefit.co/bedding/dohar",
+        "category": "View all categories"
+      },
+      {
+        "name": "Comforter36+ Options",
+        "url": "https://www.wakefit.co/bedding/cotton-comforter/WSMRCTND",
+        "category": "View all categories"
+      },
+      {
+        "name": "Wedge Pillow5+ Options",
+        "url": "https://www.wakefit.co/pillows-and-cushions/wedge-pillow/WWPMFTBR",
+        "category": "View all categories"
+      },
+      {
+        "name": "Pillow Cover16+ Options",
+        "url": "https://www.wakefit.co/bedding/pillow-covers",
+        "category": "View all categories"
+      },
+      {
+        "name": "Back Support Cushion",
+        "url": "https://www.wakefit.co/pillows-and-cushions/back-support-cushion/WBSC",
+        "category": "View all categories"
+      },
+      {
+        "name": "Bunk Bed2+ Options",
+        "url": "https://www.wakefit.co/bed/bunk-beds",
+        "category": "View all categories"
+      },
+      {
+        "name": "Kids Sleeping Pillow1+ Options",
+        "url": "https://www.wakefit.co/pillows-and-cushions/kids-sleeping-pillow",
+        "category": "View all categories"
+      },
+      {
+        "name": "Cushion Covers1+ Options",
+        "url": "https://www.wakefit.co/pillows-and-cushions/cushion-covers",
+        "category": "View all categories"
+      },
+      {
+        "name": "Bean Bag6+ Options",
+        "url": "https://www.wakefit.co/seating/bean-bags",
+        "category": "View all categories"
+      },
+      {
+        "name": "Dining Furniture Set72+ Options",
+        "url": "https://www.wakefit.co/dining-furniture/dining-set",
+        "category": "View all categories"
+      },
+      {
+        "name": "Cribs And Cradles8+ Options",
+        "url": "https://www.wakefit.co/kids-furniture/cribs-and-cradles",
+        "category": "View all categories"
+      },
+      {
+        "name": "High Chair8+ Options",
+        "url": "https://www.wakefit.co/kids-furniture/high-chair",
+        "category": "View all categories"
+      },
+      {
+        "name": "Dry Sheets15+ Options",
+        "url": "https://www.wakefit.co/kids-furniture/dry-sheets",
+        "category": "View all categories"
+      },
+      {
+        "name": "Kids Towels4+ Options",
+        "url": "https://www.wakefit.co/kids-furniture/kids-towel",
+        "category": "View all categories"
+      },
+      {
+        "name": "Kids Sleeping Pillow20+ Options",
+        "url": "https://www.wakefit.co/pillows-and-cushions/kids-sleeping-pillow/WSKPS",
+        "category": "View all categories"
+      },
+      {
+        "name": "Study Lamps20+ Options",
+        "url": "https://www.wakefit.co/lights-and-lamps/study-lamps",
+        "category": "View all categories"
+      },
+      {
+        "name": "Wall Clock23+ Options",
+        "url": "https://www.wakefit.co/decor/wall-clock",
+        "category": "View all categories"
+      },
+      {
+        "name": "Kids Wardrobes3+ Options",
+        "url": "https://www.wakefit.co/kids-furniture/kids-wardrobes",
+        "category": "View all categories"
+      },
+      {
+        "name": "Kids Bed6+ Options",
+        "url": "https://www.wakefit.co/kids-furniture/kids-bed",
+        "category": "View all categories"
+      },
+      {
+        "name": "Kids Chest Of Drawers1+ Options",
+        "url": "https://www.wakefit.co/kids-furniture/kids-chest-of-drawers",
+        "category": "View all categories"
+      },
+      {
+        "name": "Kids Study Table 6+ Options",
+        "url": "https://www.wakefit.co/kids-furniture/kids-study-table",
+        "category": "View all categories"
+      },
+      {
+        "name": "Hanging Pendants22+ Options",
+        "url": "https://www.wakefit.co/lights-and-lamps/hanging-pendants",
+        "category": "View all categories"
+      },
+      {
+        "name": "Candle Holder9+ Options",
+        "url": "https://www.wakefit.co/decor/candle-holder",
+        "category": "View all categories"
+      },
+      {
+        "name": "Showpiece8+ Options",
+        "url": "https://www.wakefit.co/decor/showpiece",
+        "category": "View all categories"
+      },
+      {
+        "name": "Ottoman12+ Options",
+        "url": "https://www.wakefit.co/sofa-set/ottoman",
+        "category": "View all categories"
+      },
+      {
+        "name": "Leatherette Sofa19+ Options",
+        "url": "https://www.wakefit.co/sofa-set/leatherette-sofa",
+        "category": "View all categories"
+      },
+      {
+        "name": "LShapeSense Orthopedic Classic Memory Foam Mattress | 10 Years Warranty% off",
+        "url": "https://www.wakefit.co/mattress/orthopaedic-memory-foam-mattress/WOMFM72305",
+        "category": "Offers"
+      },
+      {
+        "name": "Peppa TV Unit% off",
+        "url": "https://www.wakefit.co/tv-units/peppa-tv-unit/WTVUPEPPA",
+        "category": "Offers"
+      },
+      {
+        "name": "Shop Product",
+        "url": "https://www.wakefit.co/mattress/orthopaedic-memory-foam-mattress/WOMFM72485",
+        "category": "Mattress Size Guide"
+      },
+      {
+        "name": "Shop Product",
+        "url": "https://www.wakefit.co/mattress/orthopaedic-memory-foam-mattress/WOMFM72605",
+        "category": "Mattress Size Guide"
+      },
+      {
+        "name": "Shop Product",
+        "url": "https://www.wakefit.co/mattress/orthopaedic-memory-foam-mattress/WOMFM72705",
+        "category": "Mattress Size Guide"
+      },
+      {
+        "name": "sheesham wood bed",
+        "url": "https://www.wakefit.co/beds/sheesham-wood-bed-centaurus/WSWB7860",
+        "category": "Bed Size Guide"
+      },
+      {
+        "name": "Shop Product",
+        "url": "https://www.wakefit.co/bed/sheesham-bed-auriga/WSWB7860AUG",
+        "category": "Bed Assembly Guide"
+      },
+      {
+        "name": "Shop Product",
+        "url": "https://www.wakefit.co/bed/sheesham-storage-bed-auriga/WSWB7860SAUG",
+        "category": "Bed Assembly Guide"
+      },
+      {
+        "name": "Shop Product",
+        "url": "https://www.wakefit.co/bed/sheesham-bed-andromeda/WSWB7860AMD",
+        "category": "Bed Assembly Guide"
+      },
+      {
+        "name": "Shop Product",
+        "url": "https://www.wakefit.co/bed/sheesham-storage-bed-andromeda/WSWB7860SAMD",
+        "category": "Bed Assembly Guide"
+      },
+      {
+        "name": "Shop Product",
+        "url": "https://www.wakefit.co/bed/sheesham-wood-bed-centaurus/WSWB7860",
+        "category": "Bed Assembly Guide"
+      },
+      {
+        "name": "bedroom makeover.",
+        "url": "https://www.wakefit.co/guides/indian-bedroom-makeover-guide/",
+        "category": "Bedroom Decor Ideas"
+      },
+      {
+        "name": "which side is best to sleep",
+        "url": "https://www.wakefit.co/guides/which-side-is-best-to-sleep/",
+        "category": "Bedroom Decor Ideas"
+      },
+      {
+        "name": "bedding decor ideas",
+        "url": "https://www.wakefit.co/guides/bedding-decor-ideas-for-indian-homes/",
+        "category": "Bedroom Decor Ideas"
+      },
+      {
+        "name": "pillows for sleep",
+        "url": "https://www.wakefit.co/guides/pillows-for-sleep-in-every-position/",
+        "category": "Bedroom Decor Ideas"
+      },
+      {
+        "name": "kids bedroom ideas",
+        "url": "https://www.wakefit.co/guides/kids-bedroom-ideas-in-india/",
+        "category": "Bedroom Decor Ideas"
+      },
+      {
+        "name": "luxury living room under budget.",
+        "url": "https://www.wakefit.co/guides/luxury-living-room-in-india/",
+        "category": "Living Room Decor Ideas"
+      },
+      {
+        "name": "house wall ideas for Indian homes",
+        "url": "https://www.wakefit.co/guides/house-wall-design-ideas-for-indian-homes/",
+        "category": "Living Room Decor Ideas"
+      },
+      {
+        "name": "Coffee table decor",
+        "url": "https://www.wakefit.co/guides/modern-coffee-table-decor-in-india/",
+        "category": "Living Room Decor Ideas"
+      },
+      {
+        "name": "Sofa cum Bed",
+        "url": "https://www.wakefit.co/sofa-set/amoeba-sofa-cum-bed/WSFAAMBN3FOBL",
+        "category": "Living Room Decor Ideas"
+      },
+      {
+        "name": "rugs and carpets",
+        "url": "https://www.wakefit.co/floor-furnishing/rugs-and-carpets",
+        "category": "Living Room Decor Ideas"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Zense",
+        "url": "https://www.wakefit.co/zense"
+      },
+      {
+        "name": "Mattress",
+        "url": "https://www.wakefit.co/mattress"
+      },
+      {
+        "name": "Bed |",
+        "url": "https://www.wakefit.co/bed"
+      },
+      {
+        "name": "Living",
+        "url": "https://www.wakefit.co/sofa-set"
+      },
+      {
+        "name": "Dining",
+        "url": "https://www.wakefit.co/dining-furniture"
+      },
+      {
+        "name": "Study",
+        "url": "https://www.wakefit.co/study-tables"
+      },
+      {
+        "name": "Bedding |",
+        "url": "https://www.wakefit.co/bedding"
+      },
+      {
+        "name": "Kitchen",
+        "url": "https://www.wakefit.co/kitchen"
+      },
+      {
+        "name": "Decor",
+        "url": "https://www.wakefit.co/decor"
+      },
+      {
+        "name": "Essentials",
+        "url": "https://www.wakefit.co/home-improvement"
+      },
+      {
+        "name": "Kids",
+        "url": "https://www.wakefit.co/kids-accessories"
+      },
+      {
+        "name": "Plus Series",
+        "url": "https://www.wakefit.co/plus-mattress"
+      },
+      {
+        "name": "View all categories",
+        "url": "https://www.wakefit.co/all-categories"
+      },
+      {
+        "name": "Offers",
+        "url": "https://www.wakefit.co/alloffers"
+      },
+      {
+        "name": "Mattress Size Guide",
+        "url": "https://www.wakefit.co/mattress-size-guide"
+      },
+      {
+        "name": "Bed Size Guide",
+        "url": "https://www.wakefit.co/select-bed-size"
+      },
+      {
+        "name": "Bed Assembly Guide",
+        "url": "https://www.wakefit.co/bed-assembly-guide"
+      },
+      {
+        "name": "Bedroom Decor Ideas",
+        "url": "https://www.wakefit.co/bedroom-decor-ideas"
+      },
+      {
+        "name": "Living Room Decor Ideas",
+        "url": "https://www.wakefit.co/livingroom-decor-ideas"
+      },
+      {
+        "name": "Furniture Shop |",
+        "url": "https://www.wakefit.co/furniture-shop-near-me"
+      }
+    ],
+    "validatedPatterns": [
+      {
+        "pageType": "home",
+        "pattern": "^\\/?$",
+        "examples": [
+          "https://www.wakefit.co"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/mattress\\/[^/]+",
+        "examples": [
+          "/mattress/single-bed-mattress",
+          "/mattress/double-bed-mattress",
+          "/mattress/king-size-mattress"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/bed\\/[^/]+",
+        "examples": [
+          "/bed/king-size-bed",
+          "/bed/queen-size-bed",
+          "/bed/hydraulic-storage-bed"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/sofa-set\\/[^/]+",
+        "examples": [
+          "/sofa-set/sofa-set-under-rs-ten-thousand",
+          "/sofa-set/recliners",
+          "/sofa-set/3-seater-sofa"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/medical-pillows\\/cervical-pillow\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/medical-pillows/cervical-pillow/WCNPMFPRRGBF",
+          "/medical-pillows/cervical-pillow/WCNPMFPNRGBF"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/kids-furniture\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/kids-furniture/fairora-kids-toy-storage/WKTSFAIRORA",
+          "/kids-furniture/fairora-kids-chest-of-drawer/WKCODFAIRORA3DWH",
+          "/kids-furniture/fairora-kids-chest-of-drawer/WKCODFAIRORA7DWH"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/bedding\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/bedding/fitted-bedsheet/WFB7230GLDYLW",
+          "/bedding/fitted-bedsheet/WFB7230AYGR",
+          "/bedding/baby-bedding-set/WBBSSB"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/mattress\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/mattress/orthopaedic-memory-foam-mattress/WOMFM72366",
+          "/mattress/latex-hybrid-pocket-spring-mattress/WFLATHYB72366",
+          "/mattress/xpert-grid-mattress/WFXGSM72366R1"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/bed\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/bed/upholstered-storage-bed-antho/WUWB7872SVBLANTHO",
+          "/bed/sheesham-wood-bed-auriga/WSWB7872AUGR4",
+          "/bed/engineered-wood-bed-hydraulic-storage-mars/WEWB7872HYSUPOPLMARS"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/static-category-page\\/[^/]+",
+        "examples": [
+          "/static-category-page/bed-under-10000",
+          "/static-category-page/bed-under-20000",
+          "/static-category-page/bed-under-30000"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/sofa-set\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/sofa-set/flipper-sofa-cum-bed-three-seater/WSFAFLPSN3FWGR",
+          "/sofa-set/lumara-sofa/WSFALMRN3FVSD",
+          "/sofa-set/crete-sofa-with-recliner/WSFACRTMN1FVBG"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/dining-furniture\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/dining-furniture/nuvetta-dining-table/WDINENUVETAS6NS",
+          "/dining-furniture/soomari-dining-table/WDINESOMARIS6",
+          "/dining-furniture/taco-dining-chair/WMDINETACOC2LGR"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/dining-furniture\\/[^/]+",
+        "examples": [
+          "/dining-furniture/4-seater-dining-table",
+          "/dining-furniture/6-seater-dining-table",
+          "/dining-furniture/dining-table"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/study-tables\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/study-tables/notiq-study-table/WSTNOTIQCW",
+          "/study-tables/sage-study-table/WSTSAGER1",
+          "/study-tables/horsley-computer-table-with-keyboard-tray/WSSTGALILEVOHF"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/decor\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/decor/apple-blossom-planters/WPLTRAPLEWHLG",
+          "/decor/giraffe-table-decor/WTDECGIRFGB",
+          "/decor/golnar-gold-16-wall-mirror/WWMIRGLNRGD16"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/wall-decor\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/wall-decor/eternal-embrace-black-picture-frame/WPTGSELECPFBL11S1",
+          "/wall-decor/inspiration-quartet-picture-black-frame/WPTGSIPQTPFBL85S4",
+          "/wall-decor/venetian-reverie-black-picture-frame/WPTGSVTRIPFBL27S1"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/floor-furnishing\\/[^/]+",
+        "examples": [
+          "/floor-furnishing/artificial-plant",
+          "/floor-furnishing/rugs-and-carpets"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/plus-mattress\\/[^/]+\\/[^/]+",
+        "examples": [
+          "/plus-mattress/latex-plus-mattress/WLPM72366",
+          "/plus-mattress/ortho-plus-mattress/WOPM72366",
+          "/plus-mattress/duo-plus-mattress/WDPM72366"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/bedding\\/[^/]+",
+        "examples": [
+          "/bedding/sherpa-blankets",
+          "/bedding/dohar",
+          "/bedding/pillow-covers"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/pillows-and-cushions\\/[^/]+\\/[A-Z0-9]{4,}",
+        "examples": [
+          "/pillows-and-cushions/wedge-pillow/WWPMFTBR",
+          "/pillows-and-cushions/back-support-cushion/WBSC",
+          "/pillows-and-cushions/kids-sleeping-pillow/WSKPS"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/pillows-and-cushions\\/[^/]+",
+        "examples": [
+          "/pillows-and-cushions/kids-sleeping-pillow",
+          "/pillows-and-cushions/cushion-covers"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/kids-furniture\\/[^/]+",
+        "examples": [
+          "/kids-furniture/cribs-and-cradles",
+          "/kids-furniture/high-chair",
+          "/kids-furniture/dry-sheets"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/lights-and-lamps\\/[^/]+",
+        "examples": [
+          "/lights-and-lamps/study-lamps",
+          "/lights-and-lamps/hanging-pendants"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/decor\\/[^/]+",
+        "examples": [
+          "/decor/wall-clock",
+          "/decor/candle-holder",
+          "/decor/showpiece"
+        ]
+      },
+      {
+        "pageType": "product",
+        "pattern": "\\/guides\\/[^/]+",
+        "examples": [
+          "/guides/indian-bedroom-makeover-guide/",
+          "/guides/which-side-is-best-to-sleep/",
+          "/guides/bedding-decor-ideas-for-indian-homes/"
+        ]
+      },
+      {
+        "pageType": "cart",
+        "pattern": "^\\/cart\\/?",
+        "examples": [
+          "https://www.wakefit.co/cart"
+        ]
+      },
+      {
+        "pageType": "search",
+        "pattern": "^\\/search",
+        "examples": [
+          "https://www.wakefit.co/search-result"
+        ]
+      }
+    ]
+  },
+  "features": {},
+  "interactionRecipes": {},
+  "meta": {
+    "brandName": "Wakefit",
+    "currency": "INR",
+    "locale": "en-IN",
+    "primaryCategories": [
+      "Zense",
+      "Mattress",
+      "Bed |",
+      "Living",
+      "Dining",
+      "Study",
+      "Bedding |",
+      "Kitchen",
+      "Decor",
+      "Essentials",
+      "Kids",
+      "Plus Series"
+    ],
+    "platform": "custom"
+  }
+}

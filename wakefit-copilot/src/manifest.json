@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Wakefit Co-Pilot",
+  "version": "0.1.0",
+  "description": "Your AI showroom associate for Wakefit",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://api.anthropic.com/*",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "content_scripts": [{
+    "matches": ["*://*.wakefit.co/*"],
+    "js": ["src/content/index.ts"],
+    "css": [],
+    "run_at": "document_idle"
+  }],
+  "background": {
+    "service_worker": "src/background/service-worker.ts",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "public/popup.html",
+    "default_icon": { "32": "public/icons/icon-32.png" }
+  },
+  "icons": { "128": "public/icons/icon-128.png" },
+  "web_accessible_resources": [{
+    "resources": ["src/content/styles/*"],
+    "matches": ["*://*.wakefit.co/*"]
+  }]
+}

@@ -1,0 +1,32 @@
+{
+  "aa311715-913e-4b8c-87b9-e849b52183ed": {
+    "jobId": "aa311715-913e-4b8c-87b9-e849b52183ed",
+    "domain": "wakefit.co",
+    "url": "https://www.wakefit.co",
+    "status": "done",
+    "startedAt": "2026-02-20T16:14:55.829Z",
+    "logs": [
+      "[runner] crawl started at 2026-02-20T16:14:55.830Z",
+      "[crawl-engine] starting crawl of https://www.wakefit.co",
+      "[crawl-engine] domain: wakefit.co",
+      "[crawl-engine] [1/4] loading home page: https://www.wakefit.co",
+      "  loaded: https://www.wakefit.co/",
+      "[crawl-engine] home page classified as: home",
+      "[selector-extractor] extracting main nav links",
+      "  found 50 nav links",
+      "  best category URL: https://www.wakefit.co/dining-furniture (score: 25)",
+      "[crawl-engine] sample URLs collected: https://www.wakefit.co/dining-furniture, https://www.wakefit.co/business/home-interiors",
+      "[crawl-engine] [2/4] loading category page: https://www.wakefit.co/dining-furniture",
+      "  loaded: https://www.wakefit.co/dining-furniture",
+      "[selector-extractor] extracting category/listing page selectors",
+      "[crawl-engine] [3/4] loading product page: https://www.wakefit.co/business/home-interiors",
+      "  loaded: https://www.wakefit.co/business/home-interiors",
+      "[selector-extractor] extracting product page selectors",
+      "  productTitle: 1 selector(s) found — best: h1",
+      "[crawl-engine] [4/4] assembling SiteConfig",
+      "[crawl-engine] crawl complete — 1 element intents, 30 nav links",
+      "[runner] SiteConfig saved for wakefit.co"
+    ],
+    "completedAt": "2026-02-20T16:15:05.716Z"
+  }
+}

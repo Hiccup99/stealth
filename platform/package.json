@@ -1,0 +1,11 @@
+{
+  "name": "copilot-platform",
+  "private": true,
+  "scripts": {
+    "dev:backend":  "cd backend  && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend":  "cd backend  && npm run build",
+    "seed:wakefit": "cd backend  && npx tsx src/seed-wakefit.ts",
+    "install:all":  "cd backend && npm install && cd ../frontend && npm install"
+  }
+}

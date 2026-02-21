@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+When generating components, always ensure Shadow DOM compatibility — no document.querySelector from inside components; pass refs or use the shadow root.
+For Tailwind in Shadow DOM, you need to compile a standalone CSS file and inject it as a <style> tag inside the shadow root. The standard Tailwind PostCSS plugin works; just inject the output differently.
+Use @apply sparingly — prefer utility classes directly in JSX.
+For Chrome extension type definitions, ensure @types/chrome is installed and tsconfig.json includes "chrome" in types.
